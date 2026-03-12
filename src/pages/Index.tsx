@@ -127,8 +127,8 @@ const Index = () => {
     document.head.appendChild(backToTopStyles);
 
     const scrollTopHandler = () => {
-      if (window.scrollY > 500) backToTop.classList.add("visible");
-      else backToTop.classList.remove("visible");
+      if (window.scrollY > 500) backToTop.classList.add("visible");else
+      backToTop.classList.remove("visible");
     };
     window.addEventListener("scroll", scrollTopHandler);
     backToTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
@@ -868,7 +868,7 @@ const Index = () => {
               <div className="cta-card">
                 <h3>Ready to Start?</h3>
                 <p>Let's discuss how I can help grow your digital presence and drive results through SEO, content strategy, and AI-powered marketing.</p>
-                <a href="mailto:tanyarajani01@gmail.com?subject=Let's%20Work%20Together" className="btn btn-primary btn-lg">
+                <a href="mailto:tanyarajani01@gmail.com?subject=Let's%20Work%20Together" className="btn btn-primary btn-lg text-primary-foreground bg-slate-700 mx-[20px]">
                   <i className="fas fa-paper-plane"></i> Send Me a Message
                 </a>
                 <a href="https://www.genspark.ai/api/files/s/niEYL0C7" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-lg">
@@ -911,8 +911,8 @@ const Index = () => {
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Index;
