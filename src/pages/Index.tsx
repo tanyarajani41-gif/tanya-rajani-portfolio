@@ -887,7 +887,7 @@ const Index = () => {
             <div className="footer-brand">
               <span className="footer-logo">TR</span>
               <p className="text-muted">Digital Marketing Executive & SEO Specialist</p>
-              <p className="footer-tagline text-secondary">Building digital ecosystems that drive results</p>
+              <p className="footer-tagline text-secondary">Building digital ecosystems that drive results.</p>
             </div>
             <div className="footer-links">
               <a href="#home">Home</a>
