@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import headshot from "@/assets/headshot.jpg";
 import "../styles/portfolio.css";
 
 const Index = () => {
