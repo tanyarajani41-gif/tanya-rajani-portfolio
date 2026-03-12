@@ -235,9 +235,7 @@ const Index = () => {
           <div className="about-content">
             <div className="about-image">
               <div className="image-wrapper">
-                <div className="image-placeholder">
-                  <i className="fas fa-user-tie"></i>
-                </div>
+                <img src={headshot} alt="Tanya Rajani" className="about-headshot" />
                 <div className="image-decoration"></div>
               </div>
               <div className="about-stats">
