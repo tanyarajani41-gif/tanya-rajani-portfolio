@@ -871,9 +871,9 @@ const Index = () => {
                 <a href="mailto:tanyarajani01@gmail.com?subject=Let's%20Work%20Together" className="btn btn-primary btn-lg text-primary-foreground bg-slate-700 mx-[20px]">
                   <i className="fas fa-paper-plane"></i> Send Me a Message
                 </a>
-                <a href="https://www.genspark.ai/api/files/s/niEYL0C7" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-lg">
-                  <i className="fas fa-download"></i> Download Resume
-                </a>
+                
+
+                
               </div>
             </div>
           </div>
