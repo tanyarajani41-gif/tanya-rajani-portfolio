@@ -176,7 +176,7 @@ const Index = () => {
             <i className="fas fa-rocket"></i>
             <span>Available for Opportunities</span>
           </div>
-          <h1 className="hero-title animate-slide-up">
+          <h1 className="hero-title animate-slide-up text-5xl">
             Hi, I'm <span className="gradient-text">Tanya Rajani</span>
           </h1>
           <p className="hero-subtitle animate-slide-up-delay">
