@@ -204,8 +204,8 @@ const Index = () => {
               <i className="fas fa-folder-open"></i> Portfolio Drive
             </a>
           </div>
-          <div className="hero-social animate-fade-in-delay-3">
-            <a href="https://www.linkedin.com/in/tanya-rajani-827223236" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
+          <div className="hero-social animate-fade-in-delay-3 shadow-none">
+            <a href="https://www.linkedin.com/in/tanya-rajani-827223236" target="_blank" rel="noopener noreferrer" className="social-link shadow-none" aria-label="LinkedIn">
               <i className="fab fa-linkedin-in"></i>
             </a>
             <a href="mailto:tanyarajani01@gmail.com" className="social-link" aria-label="Email">
@@ -868,7 +868,7 @@ const Index = () => {
               <div className="cta-card">
                 <h3>Ready to Start?</h3>
                 <p>Let's discuss how I can help grow your digital presence and drive results through SEO, content strategy, and AI-powered marketing.</p>
-                <a href="mailto:tanyarajani01@gmail.com?subject=Let's%20Work%20Together" className="btn btn-primary btn-lg text-primary-foreground bg-slate-700 mx-[20px]">
+                <a href="mailto:tanyarajani01@gmail.com?subject=Let's%20Work%20Together" className="btn btn-primary btn-lg text-primary-foreground mx-[20px] bg-primary">
                   <i className="fas fa-paper-plane"></i> Send Me a Message
                 </a>
                 
