@@ -200,7 +200,7 @@ const Index = () => {
             <a href="#contact" className="btn btn-secondary">
               <i className="fas fa-envelope"></i> Get In Touch
             </a>
-            <a href="https://drive.google.com/drive/folders/1sYHikT4uxV1CFw4H8y-IbuDnb4YQJwqb?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-outline opacity-100 rounded-none border-primary text-primary bg-destructive-foreground border text-slate-800 bg-slate-100 border-none shadow-inner">
+            <a href="https://drive.google.com/drive/folders/1sYHikT4uxV1CFw4H8y-IbuDnb4YQJwqb?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-outline opacity-100 rounded-none border-primary text-primary bg-destructive-foreground border text-slate-800 bg-slate-100 border-none shadow-inner focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background">
               <i className="fas fa-folder-open"></i> Portfolio Drive
             </a>
           </div>
