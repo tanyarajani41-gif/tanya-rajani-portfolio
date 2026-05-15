@@ -191,7 +191,7 @@ const Index = () => {
           </div>
           <p className="hero-description animate-fade-in-delay">
             Driving organic growth through <strong>Technical SEO</strong>, <strong>Content Strategy</strong>,{" "}
-            <strong>E-commerce Optimization</strong> & <strong>AI-driven Marketing</strong>
+            <br /><strong>E-commerce Optimization</strong> & <strong>AI-driven Marketing</strong>
           </p>
           <div className="hero-cta animate-fade-in-delay-2">
             <a href="#projects" className="btn btn-primary">
