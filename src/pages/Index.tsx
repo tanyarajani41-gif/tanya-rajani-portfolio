@@ -206,7 +206,7 @@ const Index = () => {
           </div>
           <div className="hero-social animate-fade-in-delay-3 shadow-none">
             <a href="https://www.linkedin.com/in/tanya-rajani-827223236" target="_blank" rel="noopener noreferrer" className="social-link shadow-none" aria-label="LinkedIn">
-              <i className="fab fa-linkedin-in"></i>
+              <i className="fab fa-linkedin-in opacity-100 shadow-none"></i>
             </a>
             <a href="mailto:tanyarajani01@gmail.com" className="social-link" aria-label="Email">
               <i className="fas fa-envelope"></i>
@@ -847,7 +847,7 @@ const Index = () => {
                   </div>
                 </div>
                 <a href="https://www.linkedin.com/in/tanya-rajani-827223236" target="_blank" rel="noopener noreferrer" className="contact-item">
-                  <div className="contact-icon"><i className="fab fa-linkedin-in"></i></div>
+                  <div className="contact-icon"><i className="fab fa-linkedin-in opacity-100 shadow-none"></i></div>
                   <div className="contact-text">
                     <span className="contact-label">LinkedIn</span>
                     <span className="contact-value">Connect with me</span>
@@ -857,7 +857,7 @@ const Index = () => {
               <div className="contact-social">
                 <h4>Find me on:</h4>
                 <div className="social-grid">
-                  <a href="https://www.linkedin.com/in/tanya-rajani-827223236" target="_blank" rel="noopener noreferrer" className="social-card"><i className="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+                  <a href="https://www.linkedin.com/in/tanya-rajani-827223236" target="_blank" rel="noopener noreferrer" className="social-card"><i className="fab fa-linkedin-in opacity-100 shadow-none"></i><span>LinkedIn</span></a>
                   <a href="https://www.instagram.com/_bakenflake" target="_blank" rel="noopener noreferrer" className="social-card"><i className="fab fa-instagram"></i><span>Instagram</span></a>
                   <a href="https://youtube.com/@tanyarajani4753" target="_blank" rel="noopener noreferrer" className="social-card"><i className="fab fa-youtube"></i><span>YouTube</span></a>
                   <a href="https://drive.google.com/drive/folders/1sYHikT4uxV1CFw4H8y-IbuDnb4YQJwqb?usp=sharing" target="_blank" rel="noopener noreferrer" className="social-card"><i className="fab fa-google-drive"></i><span>Portfolio Drive</span></a>
@@ -899,7 +899,7 @@ const Index = () => {
               <a href="#contact">Contact</a>
             </div>
             <div className="footer-social">
-              <a href="https://www.linkedin.com/in/tanya-rajani-827223236" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
+              <a href="https://www.linkedin.com/in/tanya-rajani-827223236" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i className="fab fa-linkedin-in opacity-100 shadow-none"></i></a>
               <a href="mailto:tanyarajani01@gmail.com" aria-label="Email"><i className="fas fa-envelope"></i></a>
               <a href="https://www.instagram.com/_bakenflake" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
               <a href="https://youtube.com/@tanyarajani4753" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i className="fab fa-youtube"></i></a>
