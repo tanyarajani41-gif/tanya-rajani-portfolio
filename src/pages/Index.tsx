@@ -184,7 +184,7 @@ const Index = () => {
           </p>
           <div className="hero-tags animate-fade-in-delay">
             <span className="hero-tag"><i className="fas fa-search"></i> SEO Specialist</span>
-            <span className="hero-tag"><i className="fas fa-bullhorn"></i> Digital Marketing Expert</span>
+            <span className="hero-tag"><i className="fas fa-bullhorn"></i> Digital Marketer</span>
             <span className="hero-tag"><i className="fas fa-shopping-cart"></i> E-commerce Builder</span>
             <span className="hero-tag"><i className="fas fa-pen-fancy"></i> Content Strategist</span>
             <span className="hero-tag"><i className="fas fa-graduation-cap"></i> MBA Graduate</span>
