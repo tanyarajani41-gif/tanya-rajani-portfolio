@@ -1726,3 +1726,33 @@ ul, ol {
         justify-content: center;
     }
 }
+/* ============================================
+   ACCESSIBILITY: FOCUS-VISIBLE RINGS
+   Site-wide keyboard focus indicators for CTAs
+   ============================================ */
+.btn:focus-visible,
+.nav-link:focus-visible,
+.social-link:focus-visible,
+.social-card:focus-visible,
+.contact-item:focus-visible,
+.cert-link:focus-visible,
+.footer-links a:focus-visible,
+.footer-social a:focus-visible,
+.scroll-indicator a:focus-visible,
+.nav-toggle:focus-visible,
+.nav-logo:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.25);
+    border-radius: var(--radius);
+}
+
+/* Remove default focus only when not keyboard-focused */
+.btn:focus:not(:focus-visible),
+.nav-link:focus:not(:focus-visible),
+.social-link:focus:not(:focus-visible),
+.social-card:focus:not(:focus-visible),
+.contact-item:focus:not(:focus-visible),
+.cert-link:focus:not(:focus-visible) {
+    outline: none;
+}
