@@ -488,7 +488,7 @@ const Index = () => {
                 <div className="timeline-header">
                   <h3>MBA in Digital Marketing</h3>
                   <span className="timeline-company"><i className="fas fa-university"></i> University Graduate</span>
-                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> 2023 - 2025</span>
+                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> 2023 - 2026</span>
                 </div>
                 <div className="timeline-body">
                   <p>Specialized in Digital Marketing with focus on SEO, Content Strategy, E-commerce Management, and AI-driven Marketing.</p>
