@@ -249,7 +249,7 @@ const Index = () => {
                   <span className="stat-label">Projects</span>
                 </div>
                 <div className="stat-item">
-                  <span className="stat-number">2025</span>
+                  <span className="stat-number">2026</span>
                   <span className="stat-label">MBA</span>
                 </div>
               </div>
@@ -258,25 +258,25 @@ const Index = () => {
               <h3>Building Digital Presence That Drives Results</h3>
               <p>
                 <strong>MBA Graduate in Digital Marketing</strong> with hands-on experience in <strong>SEO (Technical, On-page, Off-page)</strong>,
-                content strategy, social media marketing, and e-commerce optimization at <strong>Meetanshi.com</strong> and <strong>Webguru.dev</strong>.
+                content strategy, social media marketing, and e-commerce optimization at <strong>Meetanshi.com</strong>.
               </p>
               <p>
-                I don't just understand digital marketing theory—I build it, brick by digital brick, into living, breathing ecosystems.
+                I don't just understand digital marketing theory, I build it, brick by digital brick, into living, breathing ecosystems.
                 I launched an entire e-commerce universe for <strong>BAKE N' FLAKE</strong>, weaving together Shopify stores, social media channels,
                 blogs, and local SEO into a seamless tapestry of brand presence.
               </p>
               <p>
                 Proven ability to work on live projects, execute SEO audits, improve organic visibility,
-                and manage end-to-end digital initiatives. Strong interest in applying <strong>AI and automation</strong>
+                and manage end-to-end digital initiatives. Strong interest in applying <strong>AI and automation</strong>&nbsp;
                 to drive smarter marketing outcomes.
               </p>
               <div className="about-highlights">
                 <div className="highlight-item"><i className="fas fa-check-circle"></i><span>Technical & On-page SEO Expert</span></div>
                 <div className="highlight-item"><i className="fas fa-check-circle"></i><span>E-commerce Optimization (Shopify/WordPress)</span></div>
-                <div className="highlight-item"><i className="fas fa-check-circle"></i><span>AI-driven Marketing Strategies (GEO, AEO, LLMO)</span></div>
+                <div className="highlight-item"><i className="fas fa-check-circle"></i><span>AI-driven Marketing Strategies (GEO, AEO)</span></div>
                 <div className="highlight-item"><i className="fas fa-check-circle"></i><span>Content Strategy & Social Media Marketing</span></div>
                 <div className="highlight-item"><i className="fas fa-check-circle"></i><span>Local SEO & Google Business Profile</span></div>
-                <div className="highlight-item"><i className="fas fa-check-circle"></i><span>Marketing Automation with Make.com</span></div>
+                <div className="highlight-item"><i className="fas fa-check-circle"></i><span>Marketing Automation</span></div>
               </div>
               <div className="about-cta">
                 <a href="https://www.genspark.ai/api/files/s/niEYL0C7" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
