@@ -342,8 +342,6 @@ const Index = () => {
               <ul className="skill-list">
                 <li>Generative Engine Optimization (GEO)</li>
                 <li>Answer Engine Optimization (AEO)</li>
-                
-                <li>Marketing Automation (Make.com)</li>
                 <li>AI Content Tools</li>
                 <li>Custom GPT Development</li>
                 <li>Prompt Enhancing</li>
