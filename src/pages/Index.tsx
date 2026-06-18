@@ -180,7 +180,7 @@ const Index = () => {
             Hi, I'm <span className="gradient-text">Tanya Rajani</span>
           </h1>
           <p className="hero-subtitle animate-slide-up-delay">
-            Digital Marketing Executive | SEO Specialist | MBA Graduate
+            Digital Marketer | SEO | E-Commerce | MBA Graduate
           </p>
           <div className="hero-tags animate-fade-in-delay">
             <span className="hero-tag"><i className="fas fa-search"></i> SEO Specialist</span>
