@@ -306,7 +306,7 @@ const Index = () => {
                 <li>Technical SEO & Site Architecture</li>
                 <li>On-page Optimization</li>
                 <li>Off-page & Link Building</li>
-                <li>JavaScript SEO</li>
+                <li>Shopify SEO</li>
                 <li>Local SEO & GMB Optimization</li>
                 <li>Core Web Vitals Optimization</li>
                 <li>SEO Audits & Reporting</li>
@@ -342,7 +342,7 @@ const Index = () => {
               <ul className="skill-list">
                 <li>Generative Engine Optimization (GEO)</li>
                 <li>Answer Engine Optimization (AEO)</li>
-                <li>LLM Optimization (LLMO)</li>
+                
                 <li>Marketing Automation (Make.com)</li>
                 <li>AI Content Tools</li>
                 <li>Custom GPT Development</li>
