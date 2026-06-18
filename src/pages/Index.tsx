@@ -346,7 +346,7 @@ const Index = () => {
                 <li>Marketing Automation (Make.com)</li>
                 <li>AI Content Tools</li>
                 <li>Custom GPT Development</li>
-                <li>Prompt Engineering</li>
+                <li>Prompt Enhancing</li>
               </ul>
             </div>
             <div className="skill-card">
@@ -368,7 +368,7 @@ const Index = () => {
                 <li>Google Analytics & Search Console</li>
                 <li>SEMrush / Ahrefs</li>
                 <li>Screaming Frog</li>
-                <li>Mageworx SEO Suite</li>
+                <li>Meta Buisness SEO Suite</li>
                 <li>Make.com (Automation)</li>
                 <li>Canva & Design Tools</li>
                 <li>Google Workspace</li>
