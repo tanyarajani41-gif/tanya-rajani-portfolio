@@ -368,7 +368,7 @@ const Index = () => {
                 <li>Google Analytics & Search Console</li>
                 <li>SEMrush / Ahrefs</li>
                 <li>Screaming Frog</li>
-                <li>Meta Buisness SEO Suite</li>
+                <li>Meta Business Suite</li>
                 <li>Make.com (Automation)</li>
                 <li>Canva & Design Tools</li>
                 <li>Google Workspace</li>
