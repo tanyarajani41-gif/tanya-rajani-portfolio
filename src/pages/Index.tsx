@@ -536,27 +536,39 @@ const Index = () => {
             <h3 className="gallery-title"><i className="fas fa-images"></i> Work Screenshots & Results</h3>
             <div className="gallery-grid">
               <div className="gallery-item">
-                <img src="https://www.genspark.ai/api/files/s/NDEbROdj" alt="Google Search Console Performance - 30% increase in clicks" loading="lazy" />
+                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #4285F4 0%, #34A853 100%)" }}>
+                  <i className="fas fa-chart-line"></i>
+                </div>
                 <div className="gallery-caption">Google Search Console - 30% Traffic Growth</div>
               </div>
               <div className="gallery-item">
-                <img src="https://www.genspark.ai/api/files/s/UORr0iNF" alt="SEO Audit with Screaming Frog and Mageworx" loading="lazy" />
+                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #10b981 0%, #059669 100%)" }}>
+                  <i className="fas fa-spider"></i>
+                </div>
                 <div className="gallery-caption">Technical SEO Audit - Screaming Frog & Mageworx</div>
               </div>
               <div className="gallery-item">
-                <img src="https://www.genspark.ai/api/files/s/hMIr7RSP" alt="Technical SEO Implementation" loading="lazy" />
+                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)" }}>
+                  <i className="fas fa-sitemap"></i>
+                </div>
                 <div className="gallery-caption">Technical SEO - XML Sitemap & Robots.txt</div>
               </div>
               <div className="gallery-item">
-                <img src="https://www.genspark.ai/api/files/s/DkqHMHyi" alt="301 Redirects and URL Optimization" loading="lazy" />
+                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #f59e0b 0%, #d97706 100%)" }}>
+                  <i className="fas fa-random"></i>
+                </div>
                 <div className="gallery-caption">URL Optimization & 301 Redirects</div>
               </div>
               <div className="gallery-item">
-                <img src="https://www.genspark.ai/api/files/s/OfOL2jTB" alt="Meta Description Optimization" loading="lazy" />
+                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #ec4899 0%, #db2777 100%)" }}>
+                  <i className="fas fa-tags"></i>
+                </div>
                 <div className="gallery-caption">Meta Description & Hreflang Setup</div>
               </div>
               <div className="gallery-item">
-                <img src="https://www.genspark.ai/api/files/s/abPKx4EP" alt="Rangachakra Google Search Results" loading="lazy" />
+                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)" }}>
+                  <i className="fas fa-search"></i>
+                </div>
                 <div className="gallery-caption">Rangachakra - SERP Analysis</div>
               </div>
             </div>
