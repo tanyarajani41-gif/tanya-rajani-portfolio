@@ -616,6 +616,7 @@ const Index = () => {
                   <a href="https://share.google/Yrd9RyxojJM30k6aD" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google"></i> GMB Profile</a>
                   <a href="https://www.instagram.com/bakersclub__?igsh=MTQwN2xkcTkyZ2FmZw==" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-instagram"></i> Instagram</a>
                   <a href="https://share.google/URGkcgxt0CKLf9mZb" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-utensils"></i> Zomato</a>
+                  <a href="https://drive.google.com/drive/folders/1xYnEywz40TrYvpHpBqYQdABO-KU0x5Ol" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Project Files</a>
                 </div>
               </div>
             </div>
