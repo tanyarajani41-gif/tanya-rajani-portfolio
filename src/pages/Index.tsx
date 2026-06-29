@@ -534,43 +534,37 @@ const Index = () => {
 
           <div className="work-gallery">
             <h3 className="gallery-title"><i className="fas fa-images"></i> Work Screenshots & Results</h3>
-            <div className="gallery-grid">
-              <div className="gallery-item">
-                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #4285F4 0%, #34A853 100%)" }}>
-                  <i className="fas fa-chart-line"></i>
+            <p className="gallery-subtitle">Live previews of my actual project files, reports, and screenshots — sourced directly from my Portfolio Drive.</p>
+            <div className="drive-gallery-grid">
+              {[
+                { id: "1tLWs0I0ZlYmhcCdrL57kGPrHbcvNKTT9", title: "Bake N' Flake — Freelance Project", icon: "fas fa-birthday-cake", tone: "linear-gradient(135deg, #ec4899 0%, #f97316 100%)" },
+                { id: "1xYnEywz40TrYvpHpBqYQdABO-KU0x5Ol", title: "Bakers Club — Digital Operations", icon: "fas fa-cookie-bite", tone: "linear-gradient(135deg, #f59e0b 0%, #d97706 100%)" },
+                { id: "1wNn-hexxSK9NLbKH9MTLpVbB6lwnuQAG", title: "Meetanshi — SEO Internship", icon: "fas fa-chart-line", tone: "linear-gradient(135deg, #10b981 0%, #06b6d4 100%)" },
+                { id: "1m1oa3GasmVb-kZXyUwzv1snLuAwPEYwV", title: "QuickHub — SEO Internship", icon: "fas fa-link", tone: "linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)" },
+                { id: "1tKV7QoNOKn45-0isCwiHr-N5t-XUK6tL", title: "Byju's — Research Project", icon: "fas fa-graduation-cap", tone: "linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%)" },
+                { id: "1JDFIIhjkc-HXx8Ta2mT-235vUFLYjJUW", title: "Freelance Projects Archive", icon: "fas fa-briefcase", tone: "linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)" },
+              ].map((folder) => (
+                <div key={folder.id} className="drive-gallery-card">
+                  <div className="drive-gallery-header" style={{ background: folder.tone }}>
+                    <i className={folder.icon}></i>
+                    <span>{folder.title}</span>
+                  </div>
+                  <iframe
+                    src={`https://drive.google.com/embeddedfolderview?id=${folder.id}#grid`}
+                    title={folder.title}
+                    loading="lazy"
+                    className="drive-gallery-frame"
+                  ></iframe>
+                  <a
+                    href={`https://drive.google.com/drive/folders/${folder.id}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="drive-gallery-link"
+                  >
+                    <i className="fas fa-external-link-alt"></i> Open folder in Drive
+                  </a>
                 </div>
-                <div className="gallery-caption">Google Search Console - 30% Traffic Growth</div>
-              </div>
-              <div className="gallery-item">
-                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #10b981 0%, #059669 100%)" }}>
-                  <i className="fas fa-spider"></i>
-                </div>
-                <div className="gallery-caption">Technical SEO Audit - Screaming Frog & Mageworx</div>
-              </div>
-              <div className="gallery-item">
-                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)" }}>
-                  <i className="fas fa-sitemap"></i>
-                </div>
-                <div className="gallery-caption">Technical SEO - XML Sitemap & Robots.txt</div>
-              </div>
-              <div className="gallery-item">
-                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #f59e0b 0%, #d97706 100%)" }}>
-                  <i className="fas fa-random"></i>
-                </div>
-                <div className="gallery-caption">URL Optimization & 301 Redirects</div>
-              </div>
-              <div className="gallery-item">
-                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #ec4899 0%, #db2777 100%)" }}>
-                  <i className="fas fa-tags"></i>
-                </div>
-                <div className="gallery-caption">Meta Description & Hreflang Setup</div>
-              </div>
-              <div className="gallery-item">
-                <div className="gallery-visual" style={{ background: "linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)" }}>
-                  <i className="fas fa-search"></i>
-                </div>
-                <div className="gallery-caption">Rangachakra - SERP Analysis</div>
-              </div>
+              ))}
             </div>
           </div>
 
@@ -599,6 +593,7 @@ const Index = () => {
                   <a href="https://www.facebook.com/Bake-N-Flake-107926504956201" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-facebook"></i> Facebook</a>
                   <a href="https://www.instagram.com/_bakenflake?igsh=Y2g4NWRzaHh1NXpx" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-instagram"></i> Instagram</a>
                   <a href="https://youtube.com/@tanyarajani4753?si=pV9rCCoSeyAFkzV0" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-youtube"></i> YouTube</a>
+                  <a href="https://drive.google.com/drive/folders/1tLWs0I0ZlYmhcCdrL57kGPrHbcvNKTT9" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Project Files</a>
                 </div>
               </div>
             </div>
@@ -621,6 +616,7 @@ const Index = () => {
                   <a href="https://share.google/Yrd9RyxojJM30k6aD" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google"></i> GMB Profile</a>
                   <a href="https://www.instagram.com/bakersclub__?igsh=MTQwN2xkcTkyZ2FmZw==" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-instagram"></i> Instagram</a>
                   <a href="https://share.google/URGkcgxt0CKLf9mZb" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-utensils"></i> Zomato</a>
+                  <a href="https://drive.google.com/drive/folders/1xYnEywz40TrYvpHpBqYQdABO-KU0x5Ol" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Project Files</a>
                 </div>
               </div>
             </div>
@@ -680,6 +676,7 @@ const Index = () => {
                 </div>
                 <div className="project-links">
                   <a href="https://meetanshi.com" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-external-link-alt"></i> Visit Website</a>
+                  <a href="https://drive.google.com/drive/folders/1wNn-hexxSK9NLbKH9MTLpVbB6lwnuQAG" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Project Files</a>
                 </div>
               </div>
             </div>
@@ -759,6 +756,45 @@ const Index = () => {
                 </div>
                 <div className="project-links">
                   <a href="https://www.genspark.ai/api/files/s/ZyODqgCr" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> AI Search Guide</a>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 9: Byju's Research Project */}
+            <div className="project-card">
+              <div className="project-image" style={{ background: "linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)" }}>
+                <div className="project-overlay"><span className="project-category">Research | Digital Marketing | EdTech</span></div>
+                <div className="project-icon"><i className="fas fa-graduation-cap"></i></div>
+              </div>
+              <div className="project-content">
+                <h3>Byju's — Effectiveness of Digital Marketing Strategies</h3>
+                <p>Academic research project (Maharaja Krishnakumarsinhji Bhavnagar University) analysing the digital marketing strategies of Byju's — The Learning App, including channel mix, user acquisition, and brand positioning in the EdTech category.</p>
+                <div className="project-highlights">
+                  <div className="highlight"><i className="fas fa-chart-pie"></i><span>Data Analysis</span></div>
+                  <div className="highlight"><i className="fas fa-bullhorn"></i><span>Campaign Study</span></div>
+                  <div className="highlight"><i className="fas fa-book"></i><span>EdTech Sector</span></div>
+                </div>
+                <div className="project-links">
+                  <a href="https://drive.google.com/drive/folders/1tKV7QoNOKn45-0isCwiHr-N5t-XUK6tL" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Research Files</a>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 10: Freelance Archive */}
+            <div className="project-card">
+              <div className="project-image" style={{ background: "linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%)" }}>
+                <div className="project-overlay"><span className="project-category">Freelance | Multi-Project Archive</span></div>
+                <div className="project-icon"><i className="fas fa-briefcase"></i></div>
+              </div>
+              <div className="project-content">
+                <h3>Freelance Projects — Tanya Rajani</h3>
+                <p>Curated archive of freelance digital marketing deliverables — strategy docs, content calendars, SEO reports, and client-facing assets across multiple engagements.</p>
+                <div className="project-highlights">
+                  <div className="highlight"><i className="fas fa-folder-open"></i><span>Deliverables</span></div>
+                  <div className="highlight"><i className="fas fa-file-alt"></i><span>Reports</span></div>
+                </div>
+                <div className="project-links">
+                  <a href="https://drive.google.com/drive/folders/1JDFIIhjkc-HXx8Ta2mT-235vUFLYjJUW" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Browse Archive</a>
                 </div>
               </div>
             </div>
