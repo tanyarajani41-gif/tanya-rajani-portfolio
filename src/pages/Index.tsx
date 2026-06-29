@@ -593,6 +593,7 @@ const Index = () => {
                   <a href="https://www.facebook.com/Bake-N-Flake-107926504956201" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-facebook"></i> Facebook</a>
                   <a href="https://www.instagram.com/_bakenflake?igsh=Y2g4NWRzaHh1NXpx" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-instagram"></i> Instagram</a>
                   <a href="https://youtube.com/@tanyarajani4753?si=pV9rCCoSeyAFkzV0" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-youtube"></i> YouTube</a>
+                  <a href="https://drive.google.com/drive/folders/1tLWs0I0ZlYmhcCdrL57kGPrHbcvNKTT9" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Project Files</a>
                 </div>
               </div>
             </div>
