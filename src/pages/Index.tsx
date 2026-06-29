@@ -388,68 +388,28 @@ const Index = () => {
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <div className="timeline-header">
-                  <h3>Digital Marketing Executive</h3>
+                  <h3>Digital Marketing Intern</h3>
                   <span className="timeline-company">
                     <i className="fas fa-building"></i>
-                    <a href="https://meetanshi.com" target="_blank" rel="noopener noreferrer">Meetanshi.com</a>
+                    <a href="https://meetanshi.com" target="_blank" rel="noopener noreferrer">Meetanshi Technologies</a>
+                    {" "}· Full-time
                   </span>
-                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> July 2025 - Present</span>
+                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> Jul 2025 - Oct 2025 · 4 mos</span>
+                  <span className="timeline-location"><i className="fas fa-map-marker-alt"></i> Bhavnagar, Gujarat, India · On-site</span>
                 </div>
                 <div className="timeline-body">
-                  <p className="timeline-description">Leading SEO initiatives for a premier Magento development company, focusing on technical SEO, content optimization, and driving organic growth.</p>
                   <ul>
-                    <li>Executing comprehensive SEO audits using Screaming Frog and Mageworx tools</li>
-                    <li>Implementing technical SEO fixes including indexing errors and site architecture improvements</li>
-                    <li>Managing on-page and off-page SEO strategies for Magento extensions marketplace</li>
-                    <li>Optimizing meta descriptions, hreflang tags, and canonical URLs</li>
-                    <li>Working on JavaScript SEO optimization for modern web applications</li>
-                    <li>Analyzing competitor strategies using SEMrush and Ahrefs</li>
-                    <li>Creating SEO measurement reports with KPIs tracking</li>
+                    <li>Helped 4+ live client websites to grow their organic traffic by running SEO audits to find and fix the technical issues.</li>
+                    <li>Managed content on WordPress, website creating and optimizing Home, FAQs, About, Product pages to ensure pages ranked well.</li>
+                    <li>Went deep into website to spot technical errors and fixed them, to improve search results.</li>
+                    <li>Optimized On-Page SEO, updating meta tags and refined website content to boost rankings for important keywords.</li>
+                    <li>Solved technical SEO problems for e-commerce clients by conducting audits and fixing site health issues.</li>
                   </ul>
                   <div className="timeline-tags">
+                    <span className="tag">Website Building</span>
+                    <span className="tag">Google Analytics</span>
                     <span className="tag">Technical SEO</span>
                     <span className="tag">On-page SEO</span>
-                    <span className="tag">Magento SEO</span>
-                    <span className="tag">Screaming Frog</span>
-                    <span className="tag">Mageworx</span>
-                  </div>
-                  <div className="timeline-results">
-                    <h4><i className="fas fa-chart-line"></i> Key Results:</h4>
-                    <ul>
-                      <li>Achieved 30% increase in organic clicks (4.15K vs 3.19K previous quarter)</li>
-                      <li>Improved total impressions from 109K to 151K (38% increase)</li>
-                      <li>Enhanced average position from 20 to 17.2</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="timeline-item">
-              <div className="timeline-marker"></div>
-              <div className="timeline-content">
-                <div className="timeline-header">
-                  <h3>SEO Specialist</h3>
-                  <span className="timeline-company">
-                    <i className="fas fa-building"></i>
-                    <a href="https://webguru.dev" target="_blank" rel="noopener noreferrer">Webguru.dev</a>
-                  </span>
-                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> July 2025</span>
-                </div>
-                <div className="timeline-body">
-                  <p className="timeline-description">Contributed to SEO strategy and implementation for a Magento eCommerce development agency with 15+ years of experience.</p>
-                  <ul>
-                    <li>Conducted in-depth website audits and SEO analysis</li>
-                    <li>Developed keyword strategies for Magento-related content</li>
-                    <li>Created blog content plans targeting e-commerce keywords</li>
-                    <li>Optimized service pages for better search visibility</li>
-                    <li>Implemented 301 redirects and URL structure improvements</li>
-                    <li>Assisted with Knowledge Base theme setup and optimization</li>
-                  </ul>
-                  <div className="timeline-tags">
-                    <span className="tag">SEO Strategy</span>
-                    <span className="tag">Keyword Research</span>
-                    <span className="tag">Content Planning</span>
                     <span className="tag">WordPress</span>
                   </div>
                 </div>
@@ -460,23 +420,56 @@ const Index = () => {
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <div className="timeline-header">
-                  <h3>Digital Marketing & E-commerce Freelancer</h3>
-                  <span className="timeline-company"><i className="fas fa-laptop-house"></i> Self-Employed</span>
-                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> 2024 - 2025</span>
+                  <h3>Digital Marketing & Operations Lead Manager</h3>
+                  <span className="timeline-company">
+                    <i className="fas fa-building"></i>
+                    AKB BAKERS CLUB · Full-time
+                  </span>
+                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> May 2024 - Jun 2025 · 1 yr 2 mos</span>
+                  <span className="timeline-location"><i className="fas fa-map-marker-alt"></i> Bhavnagar, Gujarat, India · On-site</span>
                 </div>
                 <div className="timeline-body">
-                  <p className="timeline-description">Built complete digital ecosystems for local businesses while pursuing MBA.</p>
                   <ul>
-                    <li>Created complete digital presence for BAKE N' FLAKE (Shopify store, GMB, Social Media, Blog)</li>
-                    <li>Managed BAKERS CLUB digital marketing (GMB, Instagram, Zomato listing)</li>
-                    <li>Conducted UX & Technical SEO audits for Rangachakra.com</li>
-                    <li>Implemented Shopify SEO best practices and checklists</li>
+                    <li>Managed our digital presence by achieving 4+ star ratings and quality reviews of our in-store experience.</li>
+                    <li>From scratch, creating engaging social media content, using my editing skills to showcase our customized cakes and premium treats.</li>
+                    <li>Optimized Local SEO to ensure locals find our store location and operating hours.</li>
+                    <li>Managed digital inquiries (DMs, Zomato, Swiggy) and logistics to ensure delivery with 100% accuracy.</li>
                   </ul>
                   <div className="timeline-tags">
-                    <span className="tag">Shopify</span>
+                    <span className="tag">Website Building</span>
+                    <span className="tag">Content Strategy</span>
                     <span className="tag">Local SEO</span>
-                    <span className="tag">GMB</span>
                     <span className="tag">Social Media</span>
+                    <span className="tag">GMB</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="timeline-marker"></div>
+              <div className="timeline-content">
+                <div className="timeline-header">
+                  <h3>Search Engine Optimization</h3>
+                  <span className="timeline-company">
+                    <i className="fas fa-building"></i>
+                    Quick Hub · Internship
+                  </span>
+                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> Feb 2024 - May 2024 · 4 mos</span>
+                  <span className="timeline-location"><i className="fas fa-map-marker-alt"></i> Delhi, India · Remote</span>
+                </div>
+                <div className="timeline-body">
+                  <p className="timeline-description">SEO Internship (Off page - On page)</p>
+                  <ul>
+                    <li>Started by understanding core fundamental of SEO, progressed from SEO beginner to executing "White Hat" link-building strategies to acquire quality backlinks.</li>
+                    <li>Managed SEO strategies remotely focusing on building 200+ quality backlinks and optimizing content to increase our Domain Authority.</li>
+                    <li>Used Google Search Console to track performance and fix technical errors.</li>
+                  </ul>
+                  <div className="timeline-tags">
+                    <span className="tag">Off-page SEO</span>
+                    <span className="tag">On-page SEO</span>
+                    <span className="tag">Link Building</span>
+                    <span className="tag">Google Search Console</span>
                   </div>
                 </div>
               </div>
@@ -486,18 +479,44 @@ const Index = () => {
               <div className="timeline-marker"><i className="fas fa-graduation-cap"></i></div>
               <div className="timeline-content">
                 <div className="timeline-header">
-                  <h3>MBA in Digital Marketing</h3>
-                  <span className="timeline-company"><i className="fas fa-university"></i> University Graduate</span>
-                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> 2023 - 2026</span>
+                  <h3>Master of Business Administration - MBA, Digital Marketing</h3>
+                  <span className="timeline-company"><i className="fas fa-university"></i> Dr. D Y Patil Vidyapeeth - Centre for Online Learning</span>
+                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> Jun 2023 – Feb 2026</span>
                 </div>
                 <div className="timeline-body">
                   <p>Specialized in Digital Marketing with focus on SEO, Content Strategy, E-commerce Management, and AI-driven Marketing.</p>
                   <div className="timeline-tags">
                     <span className="tag">Digital Marketing</span>
-                    <span className="tag">SEO</span>
-                    <span className="tag">E-commerce</span>
-                    <span className="tag">Business Strategy</span>
+                    <span className="tag">Presentation Skills</span>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="timeline-item education">
+              <div className="timeline-marker"><i className="fas fa-graduation-cap"></i></div>
+              <div className="timeline-content">
+                <div className="timeline-header">
+                  <h3>Bachelor of Business Administration - BBA, Marketing/Marketing Management, General</h3>
+                  <span className="timeline-company"><i className="fas fa-university"></i> Maharaja Krishnakumarsinhji Bhavnagar University</span>
+                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> Jun 2020 – May 2023</span>
+                </div>
+                <div className="timeline-body">
+                  <div className="timeline-tags">
+                    <span className="tag">Business Administration</span>
+                    <span className="tag">Project Management</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="timeline-item education">
+              <div className="timeline-marker"><i className="fas fa-graduation-cap"></i></div>
+              <div className="timeline-content">
+                <div className="timeline-header">
+                  <h3>H.S.C (Commerce), Business/Commerce, General</h3>
+                  <span className="timeline-company"><i className="fas fa-university"></i> Shree Swaminarayan Gurukul College of Education</span>
+                  <span className="timeline-date"><i className="fas fa-calendar-alt"></i> Jun 2018 – Mar 2020</span>
                 </div>
               </div>
             </div>
