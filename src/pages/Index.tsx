@@ -759,6 +759,45 @@ const Index = () => {
                 </div>
               </div>
             </div>
+
+            {/* Project 9: Byju's Research Project */}
+            <div className="project-card">
+              <div className="project-image" style={{ background: "linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)" }}>
+                <div className="project-overlay"><span className="project-category">Research | Digital Marketing | EdTech</span></div>
+                <div className="project-icon"><i className="fas fa-graduation-cap"></i></div>
+              </div>
+              <div className="project-content">
+                <h3>Byju's — Effectiveness of Digital Marketing Strategies</h3>
+                <p>Academic research project (Maharaja Krishnakumarsinhji Bhavnagar University) analysing the digital marketing strategies of Byju's — The Learning App, including channel mix, user acquisition, and brand positioning in the EdTech category.</p>
+                <div className="project-highlights">
+                  <div className="highlight"><i className="fas fa-chart-pie"></i><span>Data Analysis</span></div>
+                  <div className="highlight"><i className="fas fa-bullhorn"></i><span>Campaign Study</span></div>
+                  <div className="highlight"><i className="fas fa-book"></i><span>EdTech Sector</span></div>
+                </div>
+                <div className="project-links">
+                  <a href="https://drive.google.com/drive/folders/1tKV7QoNOKn45-0isCwiHr-N5t-XUK6tL" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Research Files</a>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 10: Freelance Archive */}
+            <div className="project-card">
+              <div className="project-image" style={{ background: "linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%)" }}>
+                <div className="project-overlay"><span className="project-category">Freelance | Multi-Project Archive</span></div>
+                <div className="project-icon"><i className="fas fa-briefcase"></i></div>
+              </div>
+              <div className="project-content">
+                <h3>Freelance Projects — Tanya Rajani</h3>
+                <p>Curated archive of freelance digital marketing deliverables — strategy docs, content calendars, SEO reports, and client-facing assets across multiple engagements.</p>
+                <div className="project-highlights">
+                  <div className="highlight"><i className="fas fa-folder-open"></i><span>Deliverables</span></div>
+                  <div className="highlight"><i className="fas fa-file-alt"></i><span>Reports</span></div>
+                </div>
+                <div className="project-links">
+                  <a href="https://drive.google.com/drive/folders/1JDFIIhjkc-HXx8Ta2mT-235vUFLYjJUW" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Browse Archive</a>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Additional Resources */}
