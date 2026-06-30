@@ -1,5 +1,13 @@
 import { useEffect } from "react";
 import headshot from "@/assets/headshot.jpg";
+import bhavikaIgInsights from "@/assets/bhavika/ig-insights.png";
+import bhavikaIgProfile from "@/assets/bhavika/ig-profile.png";
+import bhavikaInteractions from "@/assets/bhavika/interactions.png";
+import bhavikaTopContent from "@/assets/bhavika/top-content.png";
+import bhavikaAdResults from "@/assets/bhavika/ad-results.png";
+import bhavikaFbInsights from "@/assets/bhavika/fb-insights.png";
+import bhavikaFbPage from "@/assets/bhavika/fb-page.png";
+import bhavikaMetaSuite from "@/assets/bhavika/meta-suite.png";
 import "../styles/portfolio.css";
 
 const Index = () => {
