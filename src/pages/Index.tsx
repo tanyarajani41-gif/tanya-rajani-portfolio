@@ -576,6 +576,152 @@ const Index = () => {
             </div>
           </div>
 
+          {/* Featured Case Study — Bhavika Makeup Studio */}
+          <article className="case-study">
+            <header className="cs-hero">
+              <div className="cs-eyebrow"><i className="fas fa-star"></i> Featured Case Study</div>
+              <h3 className="cs-title">From zero to 16K+ reach: full-stack social media &amp; Meta Ads for Bhavika Makeup Studio</h3>
+              <p className="cs-sub">End-to-end execution — Instagram SEO, Meta Business Suite setup, content strategy, paid ads, WhatsApp marketing, and Google Business Profile — delivered solo in 40 days.</p>
+              <div className="cs-meta">Solo execution · May 21 – Jun 29, 2026 · ~40 days · Ahmedabad, India</div>
+              <div className="cs-tags">
+                {["Instagram SEO","Meta Business Suite","Meta Ads","Content strategy","WhatsApp marketing","Google Business Profile","Reels","Ad creatives"].map(t => (
+                  <span key={t} className="cs-tag">{t}</span>
+                ))}
+              </div>
+            </header>
+
+            <div className="cs-label">Overview</div>
+            <div className="cs-overview">
+              <p>Bhavika Madhwani is a professional makeup artist and educator in Nana Chiloda, Ahmedabad — serving bridal, party, glam, and academy clients. In May 2026, she had no Facebook page, inconsistent Instagram content, and no paid ad history. I took full ownership of her digital presence and built every channel from scratch, achieving significant reach, follower, and lead growth within six weeks.</p>
+            </div>
+
+            <div className="cs-label">Scope of work</div>
+            <ul className="cs-scope">
+              <li>Built Facebook Professional Page from zero + full Meta Business Suite integration</li>
+              <li>Instagram SEO: bio restructure, keyword-optimised captions, targeted hashtag strategy</li>
+              <li>Content calendar, creation, editing, and scheduling (Reels, Stories, Posts)</li>
+              <li>Designed ad creatives + ran Meta Ads campaign (WhatsApp messaging objective)</li>
+              <li>WhatsApp marketing via Meta paid lead flow</li>
+              <li>Google My Business profile setup and optimisation for local Ahmedabad search</li>
+            </ul>
+
+            <div className="cs-divider"></div>
+            <div className="cs-label">Challenge → Result</div>
+
+            {/* Block 1 */}
+            <div className="cs-block">
+              <h4 className="cs-block-title">1. Instagram reach &amp; discovery</h4>
+              <div className="cs-cr">
+                <div className="cs-box cs-challenge">
+                  <div className="cs-box-head"><i className="fas fa-exclamation-triangle"></i> Challenge</div>
+                  <ul><li>No content strategy or posting cadence</li><li>Nearly zero reach outside existing followers</li><li>No SEO in captions or bio</li></ul>
+                </div>
+                <div className="cs-box cs-result">
+                  <div className="cs-box-head"><i className="fas fa-arrow-trend-up"></i> Result</div>
+                  <ul><li>27.7K views (↑ 257%)</li><li>16.2K reach (↑ 953.9%)</li><li>15,903 non-follower reach (↑ 1,200%)</li></ul>
+                </div>
+              </div>
+              <div className="cs-proof-label"><i className="fas fa-mobile-screen"></i> Proof — Instagram Insights (Jun 1–28, 2026)</div>
+              <div className="cs-shot-duo">
+                <a href={bhavikaIgInsights} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaIgInsights} alt="Instagram insights showing 27.7K views up 257% and 16.2K reach up 953.9%" /></a>
+                <a href={bhavikaFbInsights} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaFbInsights} alt="Facebook insights dashboard for Bhavika Makeup Studio showing views and follows" /></a>
+              </div>
+            </div>
+
+            {/* Block 2 */}
+            <div className="cs-block">
+              <h4 className="cs-block-title">2. Follower growth &amp; conversations</h4>
+              <div className="cs-cr">
+                <div className="cs-box cs-challenge">
+                  <div className="cs-box-head"><i className="fas fa-exclamation-triangle"></i> Challenge</div>
+                  <ul><li>Stagnant follower count, no new leads</li><li>No WhatsApp booking funnel in place</li><li>0 conversations from social</li></ul>
+                </div>
+                <div className="cs-box cs-result">
+                  <div className="cs-box-head"><i className="fas fa-arrow-trend-up"></i> Result</div>
+                  <ul><li>48 new followers (↑ 152.6%)</li><li>65 conversations started (↑ 242.1%)</li><li>45 new contacts (↑ 462.5%)</li></ul>
+                </div>
+              </div>
+              <div className="cs-proof-label"><i className="fas fa-mobile-screen"></i> Proof — interactions &amp; conversation growth</div>
+              <div className="cs-shot-duo">
+                <a href={bhavikaInteractions} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaInteractions} alt="Interactions breakdown showing 689 interactions, Reels at 49.5%" /></a>
+                <a href={bhavikaIgInsights} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaIgInsights} alt="Instagram insights showing 48 new followers and 667 content interactions" /></a>
+              </div>
+            </div>
+
+            {/* Block 3 */}
+            <div className="cs-block">
+              <h4 className="cs-block-title">3. Content performance — Reels strategy</h4>
+              <div className="cs-cr">
+                <div className="cs-box cs-challenge">
+                  <div className="cs-box-head"><i className="fas fa-exclamation-triangle"></i> Challenge</div>
+                  <ul><li>No video content or Reels being published</li><li>Low interaction rate on static posts</li><li>No content based on peak audience time</li></ul>
+                </div>
+                <div className="cs-box cs-result">
+                  <div className="cs-box-head"><i className="fas fa-arrow-trend-up"></i> Result</div>
+                  <ul><li>Reels = 54.1% of all views</li><li>689 total interactions; top post: 69 interactions</li><li>3.6K views on a single Reel (Jun 26)</li></ul>
+                </div>
+              </div>
+              <div className="cs-proof-label"><i className="fas fa-mobile-screen"></i> Proof — top content &amp; interaction breakdown</div>
+              <div className="cs-shot-duo">
+                <a href={bhavikaTopContent} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaTopContent} alt="Top content by views: 3.6K, 2.1K, 1.4K, 1.3K, 535 views on individual Reels" /></a>
+                <a href={bhavikaInteractions} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaInteractions} alt="Interaction breakdown: Reels 49.5%, Stories 40.3%, Posts 10.2%" /></a>
+              </div>
+            </div>
+
+            {/* Block 4 */}
+            <div className="cs-block">
+              <h4 className="cs-block-title">4. Paid Meta Ad — WhatsApp lead generation</h4>
+              <div className="cs-cr">
+                <div className="cs-box cs-challenge">
+                  <div className="cs-box-head"><i className="fas fa-exclamation-triangle"></i> Challenge</div>
+                  <ul><li>No paid ad history or ad account setup</li><li>No WhatsApp booking system via ads</li><li>Needed a low-cost proof of concept first</li></ul>
+                </div>
+                <div className="cs-box cs-result">
+                  <div className="cs-box-head"><i className="fas fa-arrow-trend-up"></i> Result</div>
+                  <ul><li>18 WhatsApp conversations from ₹192</li><li>₹10.54 cost per conversation</li><li>2,708 views · 468 engagements · 25 link clicks</li></ul>
+                </div>
+              </div>
+              <div className="cs-proof-label"><i className="fas fa-mobile-screen"></i> Proof — Meta Ads campaign results</div>
+              <a href={bhavikaAdResults} target="_blank" rel="noopener noreferrer" className="cs-shot cs-shot-single"><img src={bhavikaAdResults} alt="Meta ad results: 18 messaging conversations, 2,708 views, 468 engagements, ₹10.54 cost per message, ₹192 budget, 1-day duration" /></a>
+              <div className="cs-note">₹192 budget · 1-day campaign · 18 WhatsApp leads · ₹10.54 per conversation — highly efficient for a local service business</div>
+            </div>
+
+            <div className="cs-divider"></div>
+
+            <div className="cs-label">Instagram profile (live)</div>
+            <a href={bhavikaIgProfile} target="_blank" rel="noopener noreferrer" className="cs-shot cs-shot-single"><img src={bhavikaIgProfile} alt="bhavikamakeupstudio Instagram profile — 4,074 followers, 465 posts, highlights: Workshop, Before-After, Reviews" /></a>
+            <div className="cs-links-row">
+              <a className="cs-profile-link" href="https://www.instagram.com/bhavikamakeupstudio/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i> @bhavikamakeupstudio</a>
+              <a className="cs-profile-link" href="https://www.facebook.com/profile.php?id=61589883376658" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i> Facebook page</a>
+              <a className="cs-profile-link" href={bhavikaFbPage} target="_blank" rel="noopener noreferrer"><i className="fas fa-image"></i> Facebook page screenshot</a>
+              <a className="cs-profile-link" href={bhavikaMetaSuite} target="_blank" rel="noopener noreferrer"><i className="fas fa-image"></i> Meta Business Suite screenshot</a>
+            </div>
+
+            <div className="cs-label" style={{ marginTop: "1.5rem" }}>Google Business Profile (live)</div>
+            <div className="cs-gmb">
+              <div className="cs-gmb-left">
+                <div className="cs-gmb-icon"><i className="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <p className="cs-gmb-title">Bhavika Makeup Studio — Google Maps</p>
+                  <span className="cs-gmb-sub">Nana Chiloda, Ahmedabad · Verified listing set up from scratch</span>
+                </div>
+              </div>
+              <a className="cs-gmb-btn" href="https://share.google/aLRL4fIpXR2ML5sqC" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> View on Google Maps</a>
+            </div>
+
+            <div className="cs-divider"></div>
+            <div className="cs-label">Key takeaways</div>
+            <ul className="cs-scope">
+              <li>Reels drove 54% of all views — a deliberate format choice that paid off immediately</li>
+              <li>Non-follower reach grew by 1,200%, proving strong content discoverability beyond existing audience</li>
+              <li>A ₹192 test ad generated 18 WhatsApp leads at ₹10.54/conversation — validating the paid funnel for scale</li>
+              <li>Google My Business activation produced brand visibility in local search within weeks</li>
+              <li>All channels built and managed solo, from zero infrastructure, in under 40 days</li>
+            </ul>
+            <div className="cs-note">Timeline: May 21, 2026 → Jun 29, 2026 · Solo execution · Ahmedabad, India</div>
+          </article>
+
+
           <div className="projects-grid">
             {/* Project 1: Bake N' Flake */}
             <div className="project-card featured">
