@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import headshot from "@/assets/headshot.jpg";
-import bhavikaIgProfile from "@/assets/bhavika/ig-profile.png";
+
 import bhavikaFbPage from "@/assets/bhavika/fb-page.png";
 import bhavikaMetaSuite from "@/assets/bhavika/meta-suite.png";
 import "../styles/portfolio.css";
@@ -552,10 +552,6 @@ const Index = () => {
               </div>
             </header>
 
-            <div className="cs-label">Overview</div>
-            <div className="cs-overview">
-              <p>Bhavika Madhwani is a professional makeup artist and educator in Nana Chiloda, Ahmedabad — serving bridal, party, glam, and academy clients. In May 2026, she had no Facebook page, inconsistent Instagram content, and no paid ad history. I took full ownership of her digital presence and built every channel from scratch, achieving significant reach, follower, and lead growth within six weeks.</p>
-            </div>
 
             <div className="cs-label">Scope of work</div>
             <ul className="cs-scope">
@@ -580,7 +576,7 @@ const Index = () => {
             <div className="cs-divider"></div>
 
             <div className="cs-label">Instagram profile (live)</div>
-            <a href={bhavikaIgProfile} target="_blank" rel="noopener noreferrer" className="cs-shot cs-shot-single"><img src={bhavikaIgProfile} alt="bhavikamakeupstudio Instagram profile — 4,074 followers, 465 posts, highlights: Workshop, Before-After, Reviews" /></a>
+            
             <div className="cs-links-row">
               <a className="cs-profile-link" href="https://www.instagram.com/bhavikamakeupstudio/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i> @bhavikamakeupstudio</a>
               <a className="cs-profile-link" href="https://www.facebook.com/profile.php?id=61589883376658" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i> Facebook page</a>
