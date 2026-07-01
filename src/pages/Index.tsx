@@ -1,11 +1,6 @@
 import { useEffect } from "react";
 import headshot from "@/assets/headshot.jpg";
-import bhavikaIgInsights from "@/assets/bhavika/ig-insights.png";
 import bhavikaIgProfile from "@/assets/bhavika/ig-profile.png";
-import bhavikaInteractions from "@/assets/bhavika/interactions.png";
-import bhavikaTopContent from "@/assets/bhavika/top-content.png";
-import bhavikaAdResults from "@/assets/bhavika/ad-results.png";
-import bhavikaFbInsights from "@/assets/bhavika/fb-insights.png";
 import bhavikaFbPage from "@/assets/bhavika/fb-page.png";
 import bhavikaMetaSuite from "@/assets/bhavika/meta-suite.png";
 import "../styles/portfolio.css";
@@ -540,41 +535,8 @@ const Index = () => {
             <h2 className="section-title">Work That Speaks for Itself</h2>
           </div>
 
-          <div className="work-gallery">
-            <h3 className="gallery-title"><i className="fas fa-images"></i> Work Screenshots & Results</h3>
-            <p className="gallery-subtitle">Live previews of my actual project files, reports, and screenshots — sourced directly from my Portfolio Drive.</p>
-            <div className="drive-gallery-grid">
-              {[
-                { id: "1tLWs0I0ZlYmhcCdrL57kGPrHbcvNKTT9", title: "Bake N' Flake — Freelance Project", icon: "fas fa-birthday-cake", tone: "linear-gradient(135deg, #ec4899 0%, #f97316 100%)" },
-                { id: "1xYnEywz40TrYvpHpBqYQdABO-KU0x5Ol", title: "Bakers Club — Digital Operations", icon: "fas fa-cookie-bite", tone: "linear-gradient(135deg, #f59e0b 0%, #d97706 100%)" },
-                { id: "1wNn-hexxSK9NLbKH9MTLpVbB6lwnuQAG", title: "Meetanshi — SEO Internship", icon: "fas fa-chart-line", tone: "linear-gradient(135deg, #10b981 0%, #06b6d4 100%)" },
-                { id: "1m1oa3GasmVb-kZXyUwzv1snLuAwPEYwV", title: "QuickHub — SEO Internship", icon: "fas fa-link", tone: "linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)" },
-                { id: "1tKV7QoNOKn45-0isCwiHr-N5t-XUK6tL", title: "Byju's — Research Project", icon: "fas fa-graduation-cap", tone: "linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%)" },
-                { id: "1JDFIIhjkc-HXx8Ta2mT-235vUFLYjJUW", title: "Freelance Projects Archive", icon: "fas fa-briefcase", tone: "linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)" },
-              ].map((folder) => (
-                <div key={folder.id} className="drive-gallery-card">
-                  <div className="drive-gallery-header" style={{ background: folder.tone }}>
-                    <i className={folder.icon}></i>
-                    <span>{folder.title}</span>
-                  </div>
-                  <iframe
-                    src={`https://drive.google.com/embeddedfolderview?id=${folder.id}#grid`}
-                    title={folder.title}
-                    loading="lazy"
-                    className="drive-gallery-frame"
-                  ></iframe>
-                  <a
-                    href={`https://drive.google.com/drive/folders/${folder.id}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="drive-gallery-link"
-                  >
-                    <i className="fas fa-external-link-alt"></i> Open folder in Drive
-                  </a>
-                </div>
-              ))}
-            </div>
-          </div>
+
+
 
           {/* Featured Case Study — Bhavika Makeup Studio */}
           <article className="case-study">
@@ -606,85 +568,14 @@ const Index = () => {
             </ul>
 
             <div className="cs-divider"></div>
-            <div className="cs-label">Challenge → Result</div>
-
-            {/* Block 1 */}
-            <div className="cs-block">
-              <h4 className="cs-block-title">1. Instagram reach &amp; discovery</h4>
-              <div className="cs-cr">
-                <div className="cs-box cs-challenge">
-                  <div className="cs-box-head"><i className="fas fa-exclamation-triangle"></i> Challenge</div>
-                  <ul><li>No content strategy or posting cadence</li><li>Nearly zero reach outside existing followers</li><li>No SEO in captions or bio</li></ul>
-                </div>
-                <div className="cs-box cs-result">
-                  <div className="cs-box-head"><i className="fas fa-arrow-trend-up"></i> Result</div>
-                  <ul><li>27.7K views (↑ 257%)</li><li>16.2K reach (↑ 953.9%)</li><li>15,903 non-follower reach (↑ 1,200%)</li></ul>
-                </div>
-              </div>
-              <div className="cs-proof-label"><i className="fas fa-mobile-screen"></i> Proof — Instagram Insights (Jun 1–28, 2026)</div>
-              <div className="cs-shot-duo">
-                <a href={bhavikaIgInsights} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaIgInsights} alt="Instagram insights showing 27.7K views up 257% and 16.2K reach up 953.9%" /></a>
-                <a href={bhavikaFbInsights} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaFbInsights} alt="Facebook insights dashboard for Bhavika Makeup Studio showing views and follows" /></a>
-              </div>
+            <div className="cs-label">Results at a glance</div>
+            <div className="cs-results-summary">
+              <div className="cs-res-item"><i className="fas fa-eye"></i><strong>27.7K views</strong> (↑ 257%) &amp; <strong>16.2K reach</strong> (↑ 953.9%)</div>
+              <div className="cs-res-item"><i className="fas fa-users"></i><strong>48 new followers</strong> (↑ 152.6%) &amp; <strong>65 conversations</strong> (↑ 242.1%)</div>
+              <div className="cs-res-item"><i className="fas fa-video"></i>Reels drove <strong>54.1%</strong> of all views; top Reel hit <strong>3.6K views</strong></div>
+              <div className="cs-res-item"><i className="fas fa-ad"></i><strong>18 WhatsApp leads</strong> from a ₹192 Meta Ad test (₹10.54/conversation)</div>
             </div>
 
-            {/* Block 2 */}
-            <div className="cs-block">
-              <h4 className="cs-block-title">2. Follower growth &amp; conversations</h4>
-              <div className="cs-cr">
-                <div className="cs-box cs-challenge">
-                  <div className="cs-box-head"><i className="fas fa-exclamation-triangle"></i> Challenge</div>
-                  <ul><li>Stagnant follower count, no new leads</li><li>No WhatsApp booking funnel in place</li><li>0 conversations from social</li></ul>
-                </div>
-                <div className="cs-box cs-result">
-                  <div className="cs-box-head"><i className="fas fa-arrow-trend-up"></i> Result</div>
-                  <ul><li>48 new followers (↑ 152.6%)</li><li>65 conversations started (↑ 242.1%)</li><li>45 new contacts (↑ 462.5%)</li></ul>
-                </div>
-              </div>
-              <div className="cs-proof-label"><i className="fas fa-mobile-screen"></i> Proof — interactions &amp; conversation growth</div>
-              <div className="cs-shot-duo">
-                <a href={bhavikaInteractions} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaInteractions} alt="Interactions breakdown showing 689 interactions, Reels at 49.5%" /></a>
-                <a href={bhavikaIgInsights} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaIgInsights} alt="Instagram insights showing 48 new followers and 667 content interactions" /></a>
-              </div>
-            </div>
-
-            {/* Block 3 */}
-            <div className="cs-block">
-              <h4 className="cs-block-title">3. Content performance — Reels strategy</h4>
-              <div className="cs-cr">
-                <div className="cs-box cs-challenge">
-                  <div className="cs-box-head"><i className="fas fa-exclamation-triangle"></i> Challenge</div>
-                  <ul><li>No video content or Reels being published</li><li>Low interaction rate on static posts</li><li>No content based on peak audience time</li></ul>
-                </div>
-                <div className="cs-box cs-result">
-                  <div className="cs-box-head"><i className="fas fa-arrow-trend-up"></i> Result</div>
-                  <ul><li>Reels = 54.1% of all views</li><li>689 total interactions; top post: 69 interactions</li><li>3.6K views on a single Reel (Jun 26)</li></ul>
-                </div>
-              </div>
-              <div className="cs-proof-label"><i className="fas fa-mobile-screen"></i> Proof — top content &amp; interaction breakdown</div>
-              <div className="cs-shot-duo">
-                <a href={bhavikaTopContent} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaTopContent} alt="Top content by views: 3.6K, 2.1K, 1.4K, 1.3K, 535 views on individual Reels" /></a>
-                <a href={bhavikaInteractions} target="_blank" rel="noopener noreferrer" className="cs-shot"><img src={bhavikaInteractions} alt="Interaction breakdown: Reels 49.5%, Stories 40.3%, Posts 10.2%" /></a>
-              </div>
-            </div>
-
-            {/* Block 4 */}
-            <div className="cs-block">
-              <h4 className="cs-block-title">4. Paid Meta Ad — WhatsApp lead generation</h4>
-              <div className="cs-cr">
-                <div className="cs-box cs-challenge">
-                  <div className="cs-box-head"><i className="fas fa-exclamation-triangle"></i> Challenge</div>
-                  <ul><li>No paid ad history or ad account setup</li><li>No WhatsApp booking system via ads</li><li>Needed a low-cost proof of concept first</li></ul>
-                </div>
-                <div className="cs-box cs-result">
-                  <div className="cs-box-head"><i className="fas fa-arrow-trend-up"></i> Result</div>
-                  <ul><li>18 WhatsApp conversations from ₹192</li><li>₹10.54 cost per conversation</li><li>2,708 views · 468 engagements · 25 link clicks</li></ul>
-                </div>
-              </div>
-              <div className="cs-proof-label"><i className="fas fa-mobile-screen"></i> Proof — Meta Ads campaign results</div>
-              <a href={bhavikaAdResults} target="_blank" rel="noopener noreferrer" className="cs-shot cs-shot-single"><img src={bhavikaAdResults} alt="Meta ad results: 18 messaging conversations, 2,708 views, 468 engagements, ₹10.54 cost per message, ₹192 budget, 1-day duration" /></a>
-              <div className="cs-note">₹192 budget · 1-day campaign · 18 WhatsApp leads · ₹10.54 per conversation — highly efficient for a local service business</div>
-            </div>
 
             <div className="cs-divider"></div>
 
