@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import headshot from "@/assets/headshot.jpg";
-import bhavikaIgProfile from "@/assets/bhavika/ig-profile.png";
+
 import bhavikaFbPage from "@/assets/bhavika/fb-page.png";
 import bhavikaMetaSuite from "@/assets/bhavika/meta-suite.png";
 import "../styles/portfolio.css";
