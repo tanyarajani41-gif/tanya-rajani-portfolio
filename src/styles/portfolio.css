@@ -2,6 +2,8 @@
    TANYA RAJANI - PORTFOLIO STYLES
    Modern, Clean, Professional Design
    ============================================ */
+html, body { overflow-x: hidden; max-width: 100vw; }
+
 
 /* CSS Variables */
 :root {
