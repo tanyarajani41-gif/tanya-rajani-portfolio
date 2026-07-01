@@ -1957,6 +1957,38 @@ ul, ol {
 }
 .cs-gmb-btn:hover { filter: brightness(0.95); }
 
+.cs-results-summary {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0.75rem 0 1.5rem;
+}
+.cs-res-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+  font-size: 13px;
+  line-height: 1.55;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cs-res-item i {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: #eef2ff;
+  color: var(--pf-primary, #6366f1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
+
 @media (max-width: 640px) {
   .cs-cr, .cs-shot-duo { grid-template-columns: 1fr; }
   .case-study { padding: 1.5rem 1.1rem; border-radius: 12px; }
