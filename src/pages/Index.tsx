@@ -540,41 +540,8 @@ const Index = () => {
             <h2 className="section-title">Work That Speaks for Itself</h2>
           </div>
 
-          <div className="work-gallery">
-            <h3 className="gallery-title"><i className="fas fa-images"></i> Work Screenshots & Results</h3>
-            <p className="gallery-subtitle">Live previews of my actual project files, reports, and screenshots — sourced directly from my Portfolio Drive.</p>
-            <div className="drive-gallery-grid">
-              {[
-                { id: "1tLWs0I0ZlYmhcCdrL57kGPrHbcvNKTT9", title: "Bake N' Flake — Freelance Project", icon: "fas fa-birthday-cake", tone: "linear-gradient(135deg, #ec4899 0%, #f97316 100%)" },
-                { id: "1xYnEywz40TrYvpHpBqYQdABO-KU0x5Ol", title: "Bakers Club — Digital Operations", icon: "fas fa-cookie-bite", tone: "linear-gradient(135deg, #f59e0b 0%, #d97706 100%)" },
-                { id: "1wNn-hexxSK9NLbKH9MTLpVbB6lwnuQAG", title: "Meetanshi — SEO Internship", icon: "fas fa-chart-line", tone: "linear-gradient(135deg, #10b981 0%, #06b6d4 100%)" },
-                { id: "1m1oa3GasmVb-kZXyUwzv1snLuAwPEYwV", title: "QuickHub — SEO Internship", icon: "fas fa-link", tone: "linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)" },
-                { id: "1tKV7QoNOKn45-0isCwiHr-N5t-XUK6tL", title: "Byju's — Research Project", icon: "fas fa-graduation-cap", tone: "linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%)" },
-                { id: "1JDFIIhjkc-HXx8Ta2mT-235vUFLYjJUW", title: "Freelance Projects Archive", icon: "fas fa-briefcase", tone: "linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%)" },
-              ].map((folder) => (
-                <div key={folder.id} className="drive-gallery-card">
-                  <div className="drive-gallery-header" style={{ background: folder.tone }}>
-                    <i className={folder.icon}></i>
-                    <span>{folder.title}</span>
-                  </div>
-                  <iframe
-                    src={`https://drive.google.com/embeddedfolderview?id=${folder.id}#grid`}
-                    title={folder.title}
-                    loading="lazy"
-                    className="drive-gallery-frame"
-                  ></iframe>
-                  <a
-                    href={`https://drive.google.com/drive/folders/${folder.id}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="drive-gallery-link"
-                  >
-                    <i className="fas fa-external-link-alt"></i> Open folder in Drive
-                  </a>
-                </div>
-              ))}
-            </div>
-          </div>
+
+
 
           {/* Featured Case Study — Bhavika Makeup Studio */}
           <article className="case-study">
