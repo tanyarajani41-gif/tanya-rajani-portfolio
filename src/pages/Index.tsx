@@ -576,7 +576,7 @@ const Index = () => {
             <div className="cs-divider"></div>
 
             <div className="cs-label">Instagram profile (live)</div>
-            <a href={bhavikaIgProfile} target="_blank" rel="noopener noreferrer" className="cs-shot cs-shot-single"><img src={bhavikaIgProfile} alt="bhavikamakeupstudio Instagram profile — 4,074 followers, 465 posts, highlights: Workshop, Before-After, Reviews" /></a>
+            
             <div className="cs-links-row">
               <a className="cs-profile-link" href="https://www.instagram.com/bhavikamakeupstudio/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i> @bhavikamakeupstudio</a>
               <a className="cs-profile-link" href="https://www.facebook.com/profile.php?id=61589883376658" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i> Facebook page</a>
