@@ -552,10 +552,6 @@ const Index = () => {
               </div>
             </header>
 
-            <div className="cs-label">Overview</div>
-            <div className="cs-overview">
-              <p>Bhavika Madhwani is a professional makeup artist and educator in Nana Chiloda, Ahmedabad — serving bridal, party, glam, and academy clients. In May 2026, she had no Facebook page, inconsistent Instagram content, and no paid ad history. I took full ownership of her digital presence and built every channel from scratch, achieving significant reach, follower, and lead growth within six weeks.</p>
-            </div>
 
             <div className="cs-label">Scope of work</div>
             <ul className="cs-scope">
