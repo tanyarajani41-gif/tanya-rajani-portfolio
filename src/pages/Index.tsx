@@ -534,11 +534,6 @@ const Index = () => {
           </div>
 
 
-
-
-          {/* Featured Case Study — Bhavika Makeup Studio */}
-
-
           <div className="projects-grid">
             {/* Featured Case Study — Bhavika Makeup Studio */}
             <div className="project-card featured">
