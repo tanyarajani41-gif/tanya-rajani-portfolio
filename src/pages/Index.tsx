@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import headshot from "@/assets/headshot.jpg";
 
-import bhavikaFbPage from "@/assets/bhavika/fb-page.png";
-import bhavikaMetaSuite from "@/assets/bhavika/meta-suite.png";
 import "../styles/portfolio.css";
 
 const Index = () => {
