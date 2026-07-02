@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import headshot from "@/assets/headshot.jpg";
 
-import bhavikaFbPage from "@/assets/bhavika/fb-page.png";
-import bhavikaMetaSuite from "@/assets/bhavika/meta-suite.png";
 import "../styles/portfolio.css";
 
 const Index = () => {
@@ -536,80 +534,40 @@ const Index = () => {
           </div>
 
 
-
-
-          {/* Featured Case Study — Bhavika Makeup Studio */}
-          <article className="case-study">
-            <header className="cs-hero">
-              <div className="cs-eyebrow"><i className="fas fa-star"></i> Featured Case Study</div>
-              <h3 className="cs-title">From zero to 16K+ reach: full-stack social media &amp; Meta Ads for Bhavika Makeup Studio</h3>
-              <p className="cs-sub">End-to-end execution — Instagram SEO, Meta Business Suite setup, content strategy, paid ads, WhatsApp marketing, and Google Business Profile — delivered solo in 40 days.</p>
-              <div className="cs-meta">Solo execution · May 21 – Jun 29, 2026 · ~40 days · Ahmedabad, India</div>
-              <div className="cs-tags">
-                {["Instagram SEO","Meta Business Suite","Meta Ads","Content strategy","WhatsApp marketing","Google Business Profile","Reels","Ad creatives"].map(t => (
-                  <span key={t} className="cs-tag">{t}</span>
-                ))}
+          <div className="projects-grid">
+            {/* Featured Case Study — Bhavika Makeup Studio */}
+            <div className="project-card featured">
+              <div className="project-image" style={{ background: "linear-gradient(135deg, #ec4899 0%, #f97316 100%)" }}>
+                <div className="project-overlay"><span className="project-category">Featured Case Study</span></div>
+                <div className="project-icon"><i className="fas fa-star"></i></div>
               </div>
-            </header>
-
-
-            <div className="cs-label">Scope of work</div>
-            <ul className="cs-scope">
-              <li>Built Facebook Professional Page from zero + full Meta Business Suite integration</li>
-              <li>Instagram SEO: bio restructure, keyword-optimised captions, targeted hashtag strategy</li>
-              <li>Content calendar, creation, editing, and scheduling (Reels, Stories, Posts)</li>
-              <li>Designed ad creatives + ran Meta Ads campaign (WhatsApp messaging objective)</li>
-              <li>WhatsApp marketing via Meta paid lead flow</li>
-              <li>Google My Business profile setup and optimisation for local Ahmedabad search</li>
-            </ul>
-
-            <div className="cs-divider"></div>
-            <div className="cs-label">Results at a glance</div>
-            <div className="cs-results-summary">
-              <div className="cs-res-item"><i className="fas fa-eye"></i><strong>27.7K views</strong> (↑ 257%) &amp; <strong>16.2K reach</strong> (↑ 953.9%)</div>
-              <div className="cs-res-item"><i className="fas fa-users"></i><strong>48 new followers</strong> (↑ 152.6%) &amp; <strong>65 conversations</strong> (↑ 242.1%)</div>
-              <div className="cs-res-item"><i className="fas fa-video"></i>Reels drove <strong>54.1%</strong> of all views; top Reel hit <strong>3.6K views</strong></div>
-              <div className="cs-res-item"><i className="fas fa-ad"></i><strong>18 WhatsApp leads</strong> from a ₹192 Meta Ad test (₹10.54/conversation)</div>
-            </div>
-
-
-            <div className="cs-divider"></div>
-
-            <div className="cs-label">Instagram profile (live)</div>
-            
-            <div className="cs-links-row">
-              <a className="cs-profile-link" href="https://www.instagram.com/bhavikamakeupstudio/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i> @bhavikamakeupstudio</a>
-              <a className="cs-profile-link" href="https://www.facebook.com/profile.php?id=61589883376658" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i> Facebook page</a>
-              <a className="cs-profile-link" href={bhavikaFbPage} target="_blank" rel="noopener noreferrer"><i className="fas fa-image"></i> Facebook page screenshot</a>
-              <a className="cs-profile-link" href={bhavikaMetaSuite} target="_blank" rel="noopener noreferrer"><i className="fas fa-image"></i> Meta Business Suite screenshot</a>
-            </div>
-
-            <div className="cs-label" style={{ marginTop: "1.5rem" }}>Google Business Profile (live)</div>
-            <div className="cs-gmb">
-              <div className="cs-gmb-left">
-                <div className="cs-gmb-icon"><i className="fas fa-map-marker-alt"></i></div>
-                <div>
-                  <p className="cs-gmb-title">Bhavika Makeup Studio — Google Maps</p>
-                  <span className="cs-gmb-sub">Nana Chiloda, Ahmedabad · Verified listing set up from scratch</span>
+              <div className="project-content">
+                <h3>From zero to 16K+ reach: Bhavika Makeup Studio</h3>
+                <p>End-to-end execution — Instagram SEO, Meta Business Suite, content strategy, paid ads, WhatsApp marketing, and Google Business Profile — delivered solo in ~40 days.</p>
+                <div className="project-highlights">
+                  <div className="highlight"><i className="fab fa-instagram"></i><span>Instagram SEO</span></div>
+                  <div className="highlight"><i className="fas fa-ad"></i><span>Meta Ads</span></div>
+                  <div className="highlight"><i className="fab fa-whatsapp"></i><span>WhatsApp Marketing</span></div>
+                  <div className="highlight"><i className="fas fa-map-marker-alt"></i><span>Local SEO</span></div>
+                </div>
+                <div className="project-results">
+                  <strong>Key takeaways:</strong>
+                  <ul>
+                    <li>Reels drove 54% of all views — a deliberate format choice that paid off immediately</li>
+                    <li>Non-follower reach grew by 1,200%, proving strong content discoverability beyond existing audience</li>
+                    <li>A ₹192 test ad generated 18 WhatsApp leads at ₹10.54/conversation — validating the paid funnel for scale</li>
+                    <li>Google My Business activation produced brand visibility in local search within weeks</li>
+                    <li>All channels built and managed solo, from zero infrastructure, in under 40 days</li>
+                  </ul>
+                </div>
+                <div className="project-links">
+                  <a href="https://www.instagram.com/bhavikamakeupstudio/" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-instagram"></i> Instagram</a>
+                  <a href="https://www.facebook.com/profile.php?id=61589883376658" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-facebook"></i> Facebook</a>
+                  <a href="https://business.facebook.com/latest/home" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-briefcase"></i> Meta Business Suite</a>
+                  <a href="https://share.google/aLRL4fIpXR2ML5sqC" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-map-marker-alt"></i> Google Profile</a>
                 </div>
               </div>
-              <a className="cs-gmb-btn" href="https://share.google/aLRL4fIpXR2ML5sqC" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i> View on Google Maps</a>
             </div>
-
-            <div className="cs-divider"></div>
-            <div className="cs-label">Key takeaways</div>
-            <ul className="cs-scope">
-              <li>Reels drove 54% of all views — a deliberate format choice that paid off immediately</li>
-              <li>Non-follower reach grew by 1,200%, proving strong content discoverability beyond existing audience</li>
-              <li>A ₹192 test ad generated 18 WhatsApp leads at ₹10.54/conversation — validating the paid funnel for scale</li>
-              <li>Google My Business activation produced brand visibility in local search within weeks</li>
-              <li>All channels built and managed solo, from zero infrastructure, in under 40 days</li>
-            </ul>
-            <div className="cs-note">Timeline: May 21, 2026 → Jun 29, 2026 · Solo execution · Ahmedabad, India</div>
-          </article>
-
-
-          <div className="projects-grid">
             {/* Project 1: Bake N' Flake */}
             <div className="project-card featured">
               <div className="project-image">
