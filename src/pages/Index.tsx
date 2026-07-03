@@ -543,8 +543,8 @@ const Index = () => {
                 <div className="project-icon"><i className="fas fa-star"></i></div>
               </div>
               <div className="project-content">
-                <h3>From zero to 16K+ reach: Bhavika Makeup Studio</h3>
-                <p>End-to-end execution — Instagram SEO, Meta Business Suite, content strategy, paid ads, WhatsApp marketing, and Google Business Profile — delivered solo in ~40 days.</p>
+                <h3>From zero to 31K+ reach: Bhavika Makeup Studio</h3>
+                <p>End-to-end execution — Instagram SEO, Meta Business Suite, content strategy, paid ads, WhatsApp marketing, and Google Business Profile — delivered solo. Professional dashboard now shows <strong>31.1K views in the last 30 days</strong>.</p>
                 <div className="project-highlights">
                   <div className="highlight"><i className="fab fa-instagram"></i><span>Instagram SEO</span></div>
                   <div className="highlight"><i className="fas fa-ad"></i><span>Meta Ads</span></div>
