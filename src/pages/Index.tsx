@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import headshot from "@/assets/headshot.jpg";
+import clientsPortfolioPdf from "@/assets/tanya_rajani_clients_portfolio.pdf.asset.json";
 
 import "../styles/portfolio.css";
 
