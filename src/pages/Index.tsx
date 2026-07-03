@@ -795,6 +795,7 @@ const Index = () => {
                 </div>
                 <div className="project-links">
                   <a href="https://drive.google.com/drive/folders/1JDFIIhjkc-HXx8Ta2mT-235vUFLYjJUW" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Browse Archive</a>
+                  <a href={clientsPortfolioPdf.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> Clients Portfolio (PDF)</a>
                 </div>
               </div>
             </div>
