@@ -647,7 +647,6 @@ const Index = () => {
                   <div className="highlight"><i className="fas fa-image"></i><span>Image Optimization</span></div>
                 </div>
                 <div className="project-links">
-                  <a href="https://www.genspark.ai/api/files/s/vlGf8mV5" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> View Audit Report</a>
                   <a href="https://rangachakra.com" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-external-link-alt"></i> Visit Website</a>
                 </div>
               </div>
