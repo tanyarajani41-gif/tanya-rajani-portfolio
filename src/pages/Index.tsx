@@ -861,6 +861,7 @@ const Index = () => {
                 <li>Custom GPT Development</li>
               </ul>
               <div className="cert-links">
+                <a href={genAiBootcampCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate</a>
               </div>
             </div>
             <div className="cert-card">
