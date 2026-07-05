@@ -2,6 +2,12 @@ import { useEffect } from "react";
 import headshot from "@/assets/headshot.jpg";
 import clientsPortfolioPdf from "@/assets/tanya_rajani_clients_portfolio.pdf.asset.json";
 import resumePdf from "@/assets/Tanya_Rajani_Resume.pdf.asset.json";
+import rangachakraAudit from "@/assets/Rangachakra_UX_Technical_Audit_Report.pdf.asset.json";
+import seoKpiReport from "@/assets/SEO_Measurement_Report_KPIs.xlsx.asset.json";
+import competitorReport from "@/assets/SEO_Competitor_Analysis_Report.xlsx.asset.json";
+import auditChecklist223 from "@/assets/223_Point_SEO_Audit_Checklist.xlsx.asset.json";
+import aiToolsList from "@/assets/AI_tools_latest.xlsx.asset.json";
+import semrushTechSeoCert from "@/assets/Technical_SEO_Certificate_Semrush.pdf.asset.json";
 
 import "../styles/portfolio.css";
 
