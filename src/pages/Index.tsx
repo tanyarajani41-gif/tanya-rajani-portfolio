@@ -633,6 +633,7 @@ const Index = () => {
                 <div className="project-links">
                   <a href="https://rangachakra.com" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-external-link-alt"></i> Visit Website</a>
                   <a href={rangachakraAudit.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> UX & Technical Audit Report</a>
+                  <a href={rangachakraAuditPptx.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-powerpoint"></i> SEO Audit Deck</a>
                 </div>
               </div>
             </div>
