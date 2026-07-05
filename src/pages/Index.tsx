@@ -671,8 +671,7 @@ const Index = () => {
                   <div className="highlight"><i className="fas fa-bullseye"></i><span>KPI Analysis</span></div>
                 </div>
                 <div className="project-links">
-                  <a href="https://www.genspark.ai/api/files/s/c3ZzFiTn" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> SEO KPI Report</a>
-                  <a href="https://www.genspark.ai/api/files/s/M80NGLTB" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> Traffic Dashboard</a>
+                  <a href={seoKpiReport.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> SEO KPI Report</a>
                 </div>
               </div>
             </div>
