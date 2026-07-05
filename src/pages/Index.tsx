@@ -844,8 +844,6 @@ const Index = () => {
                 <li>Custom GPT Development</li>
               </ul>
               <div className="cert-links">
-                <a href="https://www.genspark.ai/api/files/s/UuPRijdM" target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate 1</a>
-                <a href="https://www.genspark.ai/api/files/s/ShVNH9XU" target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate 2</a>
               </div>
             </div>
             <div className="cert-card">
