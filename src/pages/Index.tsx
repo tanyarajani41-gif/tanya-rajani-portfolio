@@ -851,7 +851,6 @@ const Index = () => {
               <h3>SEO & AI: Future of Search Optimization</h3>
               <p>Advanced training on SEO evolution with AI integration, GEO, AEO, and LLMO strategies</p>
               <div className="cert-links">
-                <a href="https://www.genspark.ai/api/files/s/Nmr9CDqV" target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-file-powerpoint"></i> View Training Material</a>
               </div>
             </div>
             <div className="cert-card">
