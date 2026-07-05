@@ -663,6 +663,7 @@ const Index = () => {
                   <a href="https://meetanshi.com" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-external-link-alt"></i> Visit Website</a>
                   <a href="https://drive.google.com/file/d/1v3GuSAbRmDecmEjTSmSW_hBTnkwimoX-/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> SEO Audit Report</a>
                   <a href="https://drive.google.com/file/d/1cudIiwQuEem2q-IkwiiQPN9Hs42rY_Dc/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> Performance Report</a>
+                  <a href={pieces2mobileAuditPptx.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-powerpoint"></i> Pieces2Mobile Audit Deck</a>
                   <a href="https://drive.google.com/drive/folders/1wNn-hexxSK9NLbKH9MTLpVbB6lwnuQAG" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Project Files</a>
                 </div>
               </div>
