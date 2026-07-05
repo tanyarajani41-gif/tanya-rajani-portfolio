@@ -723,6 +723,8 @@ const Index = () => {
                 </div>
                 <div className="project-links">
                   <a href={competitorReport.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> View Report</a>
+                  <a href={getTutorHelpCompetitor.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> GetTutorHelp Analysis</a>
+                  <a href={growWithGradesCompetitor.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> GrowWithGrades Analysis</a>
                 </div>
               </div>
             </div>
