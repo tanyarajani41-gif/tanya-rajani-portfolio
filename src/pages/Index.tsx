@@ -2,6 +2,12 @@ import { useEffect } from "react";
 import headshot from "@/assets/headshot.jpg";
 import clientsPortfolioPdf from "@/assets/tanya_rajani_clients_portfolio.pdf.asset.json";
 import resumePdf from "@/assets/Tanya_Rajani_Resume.pdf.asset.json";
+import rangachakraAudit from "@/assets/Rangachakra_UX_Technical_Audit_Report.pdf.asset.json";
+import seoKpiReport from "@/assets/SEO_Measurement_Report_KPIs.xlsx.asset.json";
+import competitorReport from "@/assets/SEO_Competitor_Analysis_Report.xlsx.asset.json";
+import auditChecklist223 from "@/assets/223_Point_SEO_Audit_Checklist.xlsx.asset.json";
+import aiToolsList from "@/assets/AI_tools_latest.xlsx.asset.json";
+import semrushTechSeoCert from "@/assets/Technical_SEO_Certificate_Semrush.pdf.asset.json";
 
 import "../styles/portfolio.css";
 
@@ -616,6 +622,7 @@ const Index = () => {
                 </div>
                 <div className="project-links">
                   <a href="https://rangachakra.com" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-external-link-alt"></i> Visit Website</a>
+                  <a href={rangachakraAudit.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> UX & Technical Audit Report</a>
                 </div>
               </div>
             </div>
@@ -664,8 +671,7 @@ const Index = () => {
                   <div className="highlight"><i className="fas fa-bullseye"></i><span>KPI Analysis</span></div>
                 </div>
                 <div className="project-links">
-                  <a href="https://www.genspark.ai/api/files/s/c3ZzFiTn" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> SEO KPI Report</a>
-                  <a href="https://www.genspark.ai/api/files/s/M80NGLTB" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> Traffic Dashboard</a>
+                  <a href={seoKpiReport.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> SEO KPI Report</a>
                 </div>
               </div>
             </div>
@@ -704,7 +710,7 @@ const Index = () => {
                   <div className="highlight"><i className="fas fa-link"></i><span>Backlink Analysis</span></div>
                 </div>
                 <div className="project-links">
-                  <a href="https://www.genspark.ai/api/files/s/4QPKQbD8" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> View Report</a>
+                  <a href={competitorReport.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> View Report</a>
                 </div>
               </div>
             </div>
@@ -809,10 +815,10 @@ const Index = () => {
           <div className="additional-resources">
             <h3><i className="fas fa-folder-open"></i> Additional Work & Resources</h3>
             <div className="resources-grid">
-              <a href="https://www.genspark.ai/api/files/s/QZlVHxgb" target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-word"></i><span>Advanced Technical SEO Guidelines</span></a>
-              <a href="https://www.genspark.ai/api/files/s/sB7iYUTQ" target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>223-Point SEO Audit Checklist</span></a>
-              <a href="https://www.genspark.ai/api/files/s/GG9pyvE7" target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>AI Search Content Optimization Checklist</span></a>
-              <a href="https://www.genspark.ai/api/files/s/j95FHqDn" target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>Shopify SEO Checklist</span></a>
+              <a href={auditChecklist223.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>223-Point SEO Audit Checklist</span></a>
+              <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>AI Tools List</span></a>
+              <a href={competitorReport.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>SEO Competitor Analysis Report</span></a>
+              <a href={seoKpiReport.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>SEO Measurement Report with KPIs</span></a>
             </div>
           </div>
         </div>
@@ -838,8 +844,6 @@ const Index = () => {
                 <li>Custom GPT Development</li>
               </ul>
               <div className="cert-links">
-                <a href="https://www.genspark.ai/api/files/s/UuPRijdM" target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate 1</a>
-                <a href="https://www.genspark.ai/api/files/s/ShVNH9XU" target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate 2</a>
               </div>
             </div>
             <div className="cert-card">
@@ -847,7 +851,6 @@ const Index = () => {
               <h3>SEO & AI: Future of Search Optimization</h3>
               <p>Advanced training on SEO evolution with AI integration, GEO, AEO, and LLMO strategies</p>
               <div className="cert-links">
-                <a href="https://www.genspark.ai/api/files/s/Nmr9CDqV" target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-file-powerpoint"></i> View Training Material</a>
               </div>
             </div>
             <div className="cert-card">
@@ -860,7 +863,7 @@ const Index = () => {
               <h3>Advanced Technical SEO</h3>
               <p>Specialized training in JavaScript SEO, Core Web Vitals optimization, and technical auditing methodologies</p>
               <div className="cert-links">
-                <a href="https://www.genspark.ai/api/files/s/QZlVHxgb" target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-file-word"></i> View Guidelines</a>
+                <a href={semrushTechSeoCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate</a>
               </div>
             </div>
             <div className="cert-card">
@@ -868,7 +871,7 @@ const Index = () => {
               <h3>50+ AI Tools Mastery</h3>
               <p>Hands-on experience with diverse AI tools including Whispr Flow, Gemini, ChatGPT, and various marketing automation platforms</p>
               <div className="cert-links">
-                <a href="https://www.genspark.ai/api/files/s/JJr9j8kU" target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-file-pdf"></i> View Tools List</a>
+                <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-file-excel"></i> View Tools List</a>
               </div>
             </div>
             <div className="cert-card">
