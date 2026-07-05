@@ -815,10 +815,10 @@ const Index = () => {
           <div className="additional-resources">
             <h3><i className="fas fa-folder-open"></i> Additional Work & Resources</h3>
             <div className="resources-grid">
-              <a href="https://www.genspark.ai/api/files/s/QZlVHxgb" target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-word"></i><span>Advanced Technical SEO Guidelines</span></a>
-              <a href="https://www.genspark.ai/api/files/s/sB7iYUTQ" target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>223-Point SEO Audit Checklist</span></a>
-              <a href="https://www.genspark.ai/api/files/s/GG9pyvE7" target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>AI Search Content Optimization Checklist</span></a>
-              <a href="https://www.genspark.ai/api/files/s/j95FHqDn" target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>Shopify SEO Checklist</span></a>
+              <a href={auditChecklist223.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>223-Point SEO Audit Checklist</span></a>
+              <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>AI Tools List</span></a>
+              <a href={competitorReport.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>SEO Competitor Analysis Report</span></a>
+              <a href={seoKpiReport.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>SEO Measurement Report with KPIs</span></a>
             </div>
           </div>
         </div>
