@@ -895,6 +895,22 @@ const Index = () => {
               </div>
             </div>
             <div className="cert-card">
+              <div className="cert-icon"><i className="fab fa-google"></i></div>
+              <h3>Fundamentals of Digital Marketing</h3>
+              <p>Google Digital Garage certified course covering the essentials of digital marketing, SEO, SEM, analytics, and online strategy</p>
+              <div className="cert-links">
+                <a href={googleDigitalGarageCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate</a>
+              </div>
+            </div>
+            <div className="cert-card">
+              <div className="cert-icon"><i className="fas fa-palette"></i></div>
+              <h3>Canva Pro Design</h3>
+              <p>Certified in Canva Pro design for social media creatives, marketing collateral, and brand-aligned visual content</p>
+              <div className="cert-links">
+                <a href={canvaProCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate</a>
+              </div>
+            </div>
+            <div className="cert-card">
               <div className="cert-icon"><i className="fas fa-cogs"></i></div>
               <h3>Marketing Automation with Make.com</h3>
               <p>Building automated workflows for content generation, social media posting, email automation, and cold outreach</p>
@@ -902,6 +918,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+
 
       {/* Contact Section */}
       <section className="section contact" id="contact">
