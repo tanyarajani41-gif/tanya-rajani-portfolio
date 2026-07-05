@@ -833,6 +833,9 @@ const Index = () => {
               <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>AI Tools List</span></a>
               <a href={competitorReport.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>SEO Competitor Analysis Report</span></a>
               <a href={seoKpiReport.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>SEO Measurement Report with KPIs</span></a>
+              <a href={keywordStatsPlan.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>Keyword Stats Plan (Localized)</span></a>
+              <a href={rangachakraAuditPptx.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-powerpoint"></i><span>Rangachakra SEO Audit Deck</span></a>
+              <a href={pieces2mobileAuditPptx.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-powerpoint"></i><span>Pieces2Mobile SEO Audit Deck</span></a>
             </div>
           </div>
         </div>
