@@ -710,7 +710,7 @@ const Index = () => {
                   <div className="highlight"><i className="fas fa-link"></i><span>Backlink Analysis</span></div>
                 </div>
                 <div className="project-links">
-                  <a href="https://www.genspark.ai/api/files/s/4QPKQbD8" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> View Report</a>
+                  <a href={competitorReport.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-excel"></i> View Report</a>
                 </div>
               </div>
             </div>
