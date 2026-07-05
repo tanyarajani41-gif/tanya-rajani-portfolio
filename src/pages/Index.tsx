@@ -3,11 +3,21 @@ import headshot from "@/assets/headshot.jpg";
 import clientsPortfolioPdf from "@/assets/tanya_rajani_clients_portfolio.pdf.asset.json";
 import resumePdf from "@/assets/Tanya_Rajani_Resume.pdf.asset.json";
 import rangachakraAudit from "@/assets/Rangachakra_UX_Technical_Audit_Report.pdf.asset.json";
+import rangachakraAuditPptx from "@/assets/Rangachakra_SEO_Audit_Report.pptx.asset.json";
+import pieces2mobileAuditPptx from "@/assets/Pieces2Mobile_SEO_Audit_Report.pptx.asset.json";
 import seoKpiReport from "@/assets/SEO_Measurement_Report_KPIs.xlsx.asset.json";
 import competitorReport from "@/assets/SEO_Competitor_Analysis_Report.xlsx.asset.json";
+import getTutorHelpCompetitor from "@/assets/GetTutorHelp_Competitor_Analysis.pdf.asset.json";
+import growWithGradesCompetitor from "@/assets/GrowWithGrades_Competitor_Analysis.pdf.asset.json";
+import keywordStatsPlan from "@/assets/Keyword_Stats_Plan.xlsx.asset.json";
 import auditChecklist223 from "@/assets/223_Point_SEO_Audit_Checklist.xlsx.asset.json";
 import aiToolsList from "@/assets/AI_tools_latest.xlsx.asset.json";
 import semrushTechSeoCert from "@/assets/Technical_SEO_Certificate_Semrush.pdf.asset.json";
+import semrushTechSeoCert2 from "@/assets/Technical_SEO_Certificate_Semrush_2.pdf.asset.json";
+import semrushSeoFundamentalsCert from "@/assets/SEO_Fundamentals_Certificate_Semrush.pdf.asset.json";
+import googleDigitalGarageCert from "@/assets/Google_Digital_Garage_Certificate.pdf.asset.json";
+import canvaProCert from "@/assets/Canva_Pro_Design_Certificate.pdf.asset.json";
+import genAiBootcampCert from "@/assets/Tanya_Rajani_Certificate.pdf.asset.json";
 
 import "../styles/portfolio.css";
 
