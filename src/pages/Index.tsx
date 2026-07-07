@@ -866,10 +866,9 @@ const Index = () => {
             </div>
             <div className="cert-card">
               <div className="cert-icon"><i className="fas fa-search"></i></div>
-              <h3>SEO & AI: Future of Search Optimization</h3>
               <p>Advanced training on SEO evolution with AI integration, GEO, AEO, and LLMO strategies</p>
               <div className="cert-links">
-                <a href={semrushSeoFundamentalsCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> SEO Fundamentals Certificate</a>
+                <a href={semrushSeoFundamentalsCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
               </div>
             </div>
             <div className="cert-card">
