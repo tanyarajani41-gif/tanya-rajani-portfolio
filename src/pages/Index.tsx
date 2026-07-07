@@ -881,8 +881,8 @@ const Index = () => {
               <h3>Advanced Technical SEO</h3>
               <p>Specialized training in JavaScript SEO, Core Web Vitals optimization, and technical auditing methodologies</p>
               <div className="cert-links">
-                <a href={semrushTechSeoCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate 1</a>
-                <a href={semrushTechSeoCert2.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate 2</a>
+                <a href={semrushTechSeoCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
+                <a href={semrushTechSeoCert2.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
               </div>
             </div>
             <div className="cert-card">
