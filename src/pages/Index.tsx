@@ -830,7 +830,7 @@ const Index = () => {
             <h3><i className="fas fa-folder-open"></i> Additional Work & Resources</h3>
             <div className="resources-grid">
               <a href={auditChecklist223.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>223-Point SEO Audit Checklist</span></a>
-              <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>AI Tools List</span></a>
+              <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i></a>
               <a href={competitorReport.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>SEO Competitor Analysis Report</span></a>
               <a href={seoKpiReport.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>SEO Measurement Report with KPIs</span></a>
               <a href={keywordStatsPlan.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>Keyword Stats Plan (Localized)</span></a>
