@@ -906,7 +906,7 @@ const Index = () => {
               <h3>Canva Pro Design</h3>
               <p>Certified in Canva Pro design for social media creatives, marketing collateral, and brand-aligned visual content</p>
               <div className="cert-links">
-                <a href={canvaProCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate</a>
+                <a href={canvaProCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
               </div>
             </div>
             <div className="cert-card">
