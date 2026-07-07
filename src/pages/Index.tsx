@@ -874,7 +874,7 @@ const Index = () => {
             <div className="cert-card">
               <div className="cert-icon"><i className="fas fa-graduation-cap"></i></div>
               <h3>MBA in Digital Marketing</h3>
-              <p>Master's degree with specialization in Digital Marketing, E-commerce Strategy, and Business Management (2023-2025)</p>
+              <p>Master's degree with specialization in Digital Marketing, E-commerce Strategy, and Business Management</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon"><i className="fas fa-code"></i></div>
