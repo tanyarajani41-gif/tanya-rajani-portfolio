@@ -898,7 +898,7 @@ const Index = () => {
               <h3>Fundamentals of Digital Marketing</h3>
               <p>Google Digital Garage certified course covering the essentials of digital marketing, SEO, SEM, analytics, and online strategy</p>
               <div className="cert-links">
-                <a href={googleDigitalGarageCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate</a>
+                <a href={googleDigitalGarageCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
               </div>
             </div>
             <div className="cert-card">
