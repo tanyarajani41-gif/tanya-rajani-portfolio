@@ -890,7 +890,7 @@ const Index = () => {
               <h3>50+ AI Tools Mastery</h3>
               <p>Hands-on experience with diverse AI tools including Whispr Flow, Gemini, ChatGPT, and various marketing automation platforms</p>
               <div className="cert-links">
-                <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-file-excel"></i> View Tools List</a>
+                <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-file-excel"></i></a>
               </div>
             </div>
             <div className="cert-card">
