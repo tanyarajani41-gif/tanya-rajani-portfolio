@@ -744,7 +744,7 @@ const Index = () => {
                   <div className="highlight"><i className="fas fa-brain"></i><span>LLMO</span></div>
                 </div>
                 <div className="project-links">
-                  <a href="https://drive.google.com/file/d/1udsaznMRo5o6piobyHF0RhAu8a0ME8Mf/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> AI Search Guide</a>
+                  <a href="https://drive.google.com/file/d/1udsaznMRo5o6piobyHF0RhAu8a0ME8Mf/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i></a>
                 </div>
               </div>
             </div>
