@@ -661,9 +661,9 @@ const Index = () => {
                 </div>
                 <div className="project-links">
                   <a href="https://meetanshi.com" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-external-link-alt"></i> Visit Website</a>
-                  <a href="https://drive.google.com/file/d/1v3GuSAbRmDecmEjTSmSW_hBTnkwimoX-/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> SEO Audit Report</a>
-                  <a href="https://drive.google.com/file/d/1cudIiwQuEem2q-IkwiiQPN9Hs42rY_Dc/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> Performance Report</a>
-                  <a href={pieces2mobileAuditPptx.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-powerpoint"></i> Pieces2Mobile Audit Deck</a>
+                  <a href="https://drive.google.com/file/d/1v3GuSAbRmDecmEjTSmSW_hBTnkwimoX-/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i></a>
+                  <a href="https://drive.google.com/file/d/1cudIiwQuEem2q-IkwiiQPN9Hs42rY_Dc/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i></a>
+                  <a href={pieces2mobileAuditPptx.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-powerpoint"></i></a>
                   <a href="https://drive.google.com/drive/folders/1wNn-hexxSK9NLbKH9MTLpVbB6lwnuQAG" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Project Files</a>
                 </div>
               </div>
@@ -744,7 +744,7 @@ const Index = () => {
                   <div className="highlight"><i className="fas fa-brain"></i><span>LLMO</span></div>
                 </div>
                 <div className="project-links">
-                  <a href="https://drive.google.com/file/d/1udsaznMRo5o6piobyHF0RhAu8a0ME8Mf/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> AI Search Guide</a>
+                  <a href="https://drive.google.com/file/d/1udsaznMRo5o6piobyHF0RhAu8a0ME8Mf/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i></a>
                 </div>
               </div>
             </div>
@@ -783,7 +783,7 @@ const Index = () => {
                   <div className="highlight"><i className="fas fa-file-alt"></i><span>Reports</span></div>
                 </div>
                 <div className="project-links">
-                  <a href="https://drive.google.com/drive/folders/1JDFIIhjkc-HXx8Ta2mT-235vUFLYjJUW" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i> Browse Archive</a>
+                  <a href="https://drive.google.com/drive/folders/1JDFIIhjkc-HXx8Ta2mT-235vUFLYjJUW" target="_blank" rel="noopener noreferrer" className="project-link"><i className="fab fa-google-drive"></i></a>
                   <a href={clientsPortfolioPdf.url} target="_blank" rel="noopener noreferrer" className="project-link"><i className="fas fa-file-pdf"></i> Clients Portfolio (PDF)</a>
                 </div>
               </div>
@@ -830,7 +830,7 @@ const Index = () => {
             <h3><i className="fas fa-folder-open"></i> Additional Work & Resources</h3>
             <div className="resources-grid">
               <a href={auditChecklist223.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>223-Point SEO Audit Checklist</span></a>
-              <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>AI Tools List</span></a>
+              <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i></a>
               <a href={competitorReport.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>SEO Competitor Analysis Report</span></a>
               <a href={seoKpiReport.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>SEO Measurement Report with KPIs</span></a>
               <a href={keywordStatsPlan.url} target="_blank" rel="noopener noreferrer" className="resource-link"><i className="fas fa-file-excel"></i><span>Keyword Stats Plan (Localized)</span></a>
@@ -861,29 +861,28 @@ const Index = () => {
                 <li>Custom GPT Development</li>
               </ul>
               <div className="cert-links">
-                <a href={genAiBootcampCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate</a>
+                <a href={genAiBootcampCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
               </div>
             </div>
             <div className="cert-card">
               <div className="cert-icon"><i className="fas fa-search"></i></div>
-              <h3>SEO & AI: Future of Search Optimization</h3>
               <p>Advanced training on SEO evolution with AI integration, GEO, AEO, and LLMO strategies</p>
               <div className="cert-links">
-                <a href={semrushSeoFundamentalsCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> SEO Fundamentals Certificate</a>
+                <a href={semrushSeoFundamentalsCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
               </div>
             </div>
             <div className="cert-card">
               <div className="cert-icon"><i className="fas fa-graduation-cap"></i></div>
               <h3>MBA in Digital Marketing</h3>
-              <p>Master's degree with specialization in Digital Marketing, E-commerce Strategy, and Business Management (2023-2025)</p>
+              <p>Master's degree with specialization in Digital Marketing, E-commerce Strategy, and Business Management</p>
             </div>
             <div className="cert-card">
               <div className="cert-icon"><i className="fas fa-code"></i></div>
               <h3>Advanced Technical SEO</h3>
               <p>Specialized training in JavaScript SEO, Core Web Vitals optimization, and technical auditing methodologies</p>
               <div className="cert-links">
-                <a href={semrushTechSeoCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate 1</a>
-                <a href={semrushTechSeoCert2.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate 2</a>
+                <a href={semrushTechSeoCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
+                <a href={semrushTechSeoCert2.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
               </div>
             </div>
             <div className="cert-card">
@@ -891,7 +890,7 @@ const Index = () => {
               <h3>50+ AI Tools Mastery</h3>
               <p>Hands-on experience with diverse AI tools including Whispr Flow, Gemini, ChatGPT, and various marketing automation platforms</p>
               <div className="cert-links">
-                <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-file-excel"></i> View Tools List</a>
+                <a href={aiToolsList.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-file-excel"></i></a>
               </div>
             </div>
             <div className="cert-card">
@@ -899,7 +898,7 @@ const Index = () => {
               <h3>Fundamentals of Digital Marketing</h3>
               <p>Google Digital Garage certified course covering the essentials of digital marketing, SEO, SEM, analytics, and online strategy</p>
               <div className="cert-links">
-                <a href={googleDigitalGarageCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate</a>
+                <a href={googleDigitalGarageCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
               </div>
             </div>
             <div className="cert-card">
@@ -907,7 +906,7 @@ const Index = () => {
               <h3>Canva Pro Design</h3>
               <p>Certified in Canva Pro design for social media creatives, marketing collateral, and brand-aligned visual content</p>
               <div className="cert-links">
-                <a href={canvaProCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i> View Certificate</a>
+                <a href={canvaProCert.url} target="_blank" rel="noopener noreferrer" className="cert-link"><i className="fas fa-certificate"></i></a>
               </div>
             </div>
             <div className="cert-card">
