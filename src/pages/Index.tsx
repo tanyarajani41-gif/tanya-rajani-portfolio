@@ -964,8 +964,6 @@ const Index = () => {
                 <h4>Find me on:</h4>
                 <div className="social-grid">
                   <a href="https://www.linkedin.com/in/tanya-rajani-827223236" target="_blank" rel="noopener noreferrer" className="social-card"><i className="fab fa-linkedin-in opacity-100 shadow-none"></i><span>LinkedIn</span></a>
-                  <a href="https://www.instagram.com/_bakenflake" target="_blank" rel="noopener noreferrer" className="social-card"><i className="fab fa-instagram"></i><span>Instagram</span></a>
-                  <a href="https://youtube.com/@tanyarajani4753" target="_blank" rel="noopener noreferrer" className="social-card"><i className="fab fa-youtube"></i><span>YouTube</span></a>
                   <a href="https://drive.google.com/drive/folders/1sYHikT4uxV1CFw4H8y-IbuDnb4YQJwqb?usp=sharing" target="_blank" rel="noopener noreferrer" className="social-card"><i className="fab fa-google-drive"></i><span>Portfolio Drive</span></a>
                 </div>
               </div>
